@@ -1,0 +1,563 @@
+<!-- 
+This test suite is to sanitize the new build for major features
+	1) Check the critical bugs as soon as the build ready for QA testing.
+	2) Make sure the build is good for full automation set run.
+ -->
+ 
+<suite name="Sanity">
+  <listeners>
+    <listener class-name="testng.TestNGCustom" />
+  </listeners>
+  <!-- 
+  Manage Companies. The following companies created:
+  * OMV 
+  		1) OMV01 Auto
+  * Bank
+  		1) HSBC Auto
+  * Modeling Firm
+  		1) CloudRisk Auto
+  		2) JCRA Auto
+     
+  -->
+
+  <test name="GUI1100" preserve-order="true">
+    <parameter name="Title" value="GUI1100 - Admin - Manage Companies - Create Company - Create a valid  Bank company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompNameHSBC" value="HSBC Auto">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCodeHSBC" value="HSB">
+    </parameter>
+    <parameter name="sCompMailHSBC" value="omv.notifications@hsbc.com">
+    </parameter>
+    <parameter name="sCompName" value="HSBC Auto">
+    </parameter>
+    <parameter name="sCompNameACB" value="ACB Auto">
+    </parameter>
+    <parameter name="sCodeACB" value="ACB">
+    </parameter>
+    <parameter name="sCompMailACB" value="omv.notifications@acb.com.vn">
+    </parameter>
+    <parameter name="sCompNameANZ" value="ANZ Auto">
+    </parameter>
+    <parameter name="sCodeANZ" value="ANZ">
+    </parameter>
+    <parameter name="sCompMailANZ" value="omv.notifications@anz.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1100" />
+    </classes>
+  </test>
+  <test name="GUI1101" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Companies - Create Company - Create a valid  Modeling Firm company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sFirstCompName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sCompType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCode" value="MDF">
+    </parameter>
+    <parameter name="sFirstCompMail" value="omv.notifications@cloudrisk.com">
+    </parameter>
+    <parameter name="sCompName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sSecondCompName" value="JCRA Auto">
+    </parameter>
+    <parameter name="sSecondCompMail" value="omv.notifications@jcra.com">
+    </parameter>
+    <parameter name="sThirdCompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="sThirdCompMail" value="omv.notifications@prytaniagroup.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1101" />
+    </classes>
+  </test>
+  <test name="GUI1102" preserve-order="true">
+    <parameter name="Title" value="GUI1102 - Admin - Manage Companies - Create Company - Create a valid  OMV company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="OMV01 Auto">
+    </parameter>
+    <parameter name="sCompType" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="sCode" value="OMV">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@omv01auto.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1102" />
+    </classes>
+  </test>
+
+    <!-- 
+    	Manage Users
+    	The following users created:
+    		* Admin
+    			1) Admin01 Auto
+    		* Banker
+    			1) Hsbc01 Auto
+    		* Modeler
+    			1) Cloudrisk01 Auto
+    			2) Jrca01 Auto
+    -->
+        
+  
+  <test name="GUI1370" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Users - Create User - Create a valid Admin user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Admin02">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="OMV01 Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="UnChecked">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1370" />
+    </classes>
+  </test>
+  <test name="GUI1372" preserve-order="true">
+    <parameter name="Title" value="GUI1372 - Admin - Manage Users - Create User - Create a valid Banker user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Hsbc01">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="HSBC Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="UnChecked">
+    </parameter>
+    <parameter name="Acb01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Acb01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Acb01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="Anz01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Anz01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Anz01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Anz01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='CompanyName']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1372" />
+    </classes>
+  </test>
+
+  <test name="GUI1374" preserve-order="true">
+    <parameter name="Title" value="GUI1374 - Admin - Manage Users - Create User - Create a valid Modeler user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Cloudrisk01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Cloudrisk01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Cloudrisk01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Cloudrisk01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="UnChecked">
+    </parameter>
+    <parameter name="Jcra01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Jcra01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Jcra01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Jcra01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='CompanyName']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1374" />
+    </classes>
+  </test>      
+  
+  <!-- 
+    	Manage Templates
+    	The following templates created:
+    		* CloudRisk Auto
+    		   		1) 	Commercial
+						Currenycy: USD
+						Geography: US
+						CloudRisk_Commercial_US_RefDataTemp.xml
+					2)  Student Loan
+						Currenycy: USD
+						Geography: US
+						CloudRisk_StudentLoan_US_RefDataTemp.xml
+    		* JRCA Auto
+    				1)  Commercial
+						Currenycy: EUR
+						Geography: UK
+						JCRA_Commercial_US_RefDataTemp.xml
+					2)	Auto Loan
+						Currenycy: EUR
+						Geography: UK
+						JCRA_AutoLoan_US_RefDataTemp.xml
+    	
+  -->
+  
+
+  <test name="GUI1663" preserve-order="true">
+    <parameter name="Title" value="GUI1663 - Admin - Manage Templates - Create Template - Upload valid templates for CloudRisk">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sFirstAssetClass" value="Commercial">
+    </parameter>
+    <parameter name="sFirstGeography" value="US">
+    </parameter>
+    <parameter name="sFirstTemplateName" value="CloudRisk_Commercial_US_RefDataTemp.xml">
+    </parameter>
+    <parameter name="sSecondAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sSecondGeography" value="US">
+    </parameter>
+    <parameter name="sSecondTemplateName" value="CloudRisk_StudentLoan_US_RefDataTemp.xml">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1663" />
+    </classes>
+  </test>
+  <test name="GUI1664" preserve-order="true">
+    <parameter name="Title" value="GUI1664 - Admin - Manage Templates - Create Template - Upload valid templates for JCRA">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="JCRA Auto">
+    </parameter>
+    <parameter name="sFirstAssetClass" value="Commercial">
+    </parameter>
+    <parameter name="sFirstGeography" value="UK">
+    </parameter>
+    <parameter name="sFirstTemplateName" value="JCRA_Commercial_UK_RefDataTemp.xml">
+    </parameter>
+    <parameter name="sSecondAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sSecondGeography" value="UK">
+    </parameter>
+    <parameter name="sSecondTemplateName" value="JCRA_AutoLoan_UK_RefDataTemp.xml">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1664" />
+    </classes>
+  </test>  
+
+    <!-- 
+    	Manage SPs
+    	
+  -->
+  
+  
+  <test name="GUI3070" preserve-order="true">
+    <parameter name="Title" value="GUI3070 - Banker - Create Master Portfolio - Create Master portfolios for HSBC bank">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB1" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB1" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB1" value="037833100">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Checked">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB2" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB2" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB2" value="037833100">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3070" />
+    </classes>
+  </test>
+  <test name="GUI3071" preserve-order="true">
+    <parameter name="Title" value="GUI3071 - Banker - Create Master Portfolio - Create Master portfolios for ACB bank">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB1" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB1" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB1" value="037833100">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Checked">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB2" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB2" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB2" value="037833100">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3071" />
+    </classes>
+  </test>
+  
+  <test name="GUI3252" preserve-order="true">
+    <parameter name="Title" value="Banker - Create Sub-Portfolio  - Sub-Portfolios for HSBC bank with CloudRisk and JCRA">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMPName" value="HSB-1">
+    </parameter>
+    <parameter name="sCurrencyUSD" value="USD">
+    </parameter>
+    <parameter name="sAssetClassCommercial" value="Commercial">
+    </parameter>
+    <parameter name="sGeographyUS" value="US">
+    </parameter>
+    <parameter name="sModelingFirmCloudRisk" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClassStudentLoan" value="Student Loan">
+    </parameter>
+    <parameter name="sMPNameHSB2" value="HSB-2">
+    </parameter>
+    <parameter name="sCurrencyEUR" value="EUR">
+    </parameter>
+    <parameter name="sGeographyUK" value="UK">
+    </parameter>
+    <parameter name="sModelingFirmJCRA" value="JCRA Auto">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3252" />
+    </classes>
+  </test>
+  <test name="GUI3253" preserve-order="true">
+    <parameter name="Title" value="Banker - Create Sub-Portfolio  - Sub-Portfolios for HSBC bank with CloudRisk and JCRA">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="acb01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMPName" value="ACB-1">
+    </parameter>
+    <parameter name="sCurrencyUSD" value="USD">
+    </parameter>
+    <parameter name="sAssetClassCommercial" value="Commercial">
+    </parameter>
+    <parameter name="sGeographyUS" value="US">
+    </parameter>
+    <parameter name="sModelingFirmCloudRisk" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClassStudentLoan" value="Student Loan">
+    </parameter>
+    <parameter name="sMPNameHSB2" value="ACB-2">
+    </parameter>
+    <parameter name="sCurrencyEUR" value="EUR">
+    </parameter>
+    <parameter name="sGeographyUK" value="UK">
+    </parameter>
+    <parameter name="sModelingFirmJCRA" value="JCRA Auto">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3253" />
+    </classes>
+  </test>
+  
+</suite>

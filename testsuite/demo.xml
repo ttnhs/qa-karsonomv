@@ -1,0 +1,128 @@
+<suite name="demo">
+  <listeners>
+    <listener class-name="testng.TestNGCustom" />
+  </listeners>
+  <test name="Demo_Firefox" preserve-order="true">
+    <parameter name="Title" value="Check if keyworks work as expected">
+    </parameter>
+    <parameter name="Server4_IpAddr" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='IpAddr']">
+    </parameter>
+    <parameter name="Server4_Port" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='Port']">
+    </parameter>
+    <parameter name="Server4_Browser" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='Browser']">
+    </parameter>
+    <parameter name="Server4_TimeOut" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='TimeOut']">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="sUrl" value="$Url">
+    </parameter>
+    <parameter name="sLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="sPassword" value="$Password">
+    </parameter>
+    <parameter name="sUser" value="manager">
+    </parameter>
+    <parameter name="sPass" value="test">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sImage" value="Manager.PNG">
+    </parameter>
+    <parameter name="sFileNameExcel" value="TestData.xlsx">
+    </parameter>
+    <parameter name="sExpectedText" value="Sang">
+    </parameter>
+    <parameter name="sFileNameCSV" value="userList.csv">
+    </parameter>
+    <parameter name="sExpectedTextCSV" value="ntucmy">
+    </parameter>
+    <parameter name="sCourses" value="$Courses">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.Demo" />
+    </classes>
+  </test>
+   <test name="Demo_Chrome" preserve-order="true">
+    <parameter name="Title" value="Check if keyworks work as expected">
+    </parameter>
+    <parameter name="Server4_IpAddr" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='IpAddr']">
+    </parameter>
+    <parameter name="Server4_Port" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='Port']">
+    </parameter>
+    <parameter name="Server4_Browser" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='Browser']">
+    </parameter>
+    <parameter name="Server4_TimeOut" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='TimeOut']">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="sUrl" value="$Url">
+    </parameter>
+    <parameter name="sLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="sPassword" value="$Password">
+    </parameter>
+    <parameter name="sUser" value="manager">
+    </parameter>
+    <parameter name="sPass" value="test">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sImage" value="Manager.PNG">
+    </parameter>
+    <parameter name="sFileNameExcel" value="TestData.xlsx">
+    </parameter>
+    <parameter name="sExpectedText" value="Sang">
+    </parameter>
+    <parameter name="sFileNameCSV" value="userList.csv">
+    </parameter>
+    <parameter name="sExpectedTextCSV" value="ntucmy">
+    </parameter>
+    <parameter name="sCourses" value="$Courses">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.Demo" />
+    </classes>
+  </test>
+  <test name="Demo_IE" preserve-order="true">
+    <parameter name="Title" value="Check if keyworks work as expected">
+    </parameter>
+    <parameter name="Server4_IpAddr" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='IpAddr']">
+    </parameter>
+    <parameter name="Server4_Port" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='Port']">
+    </parameter>
+    <parameter name="Server4_Browser" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='Browser']">
+    </parameter>
+    <parameter name="Server4_TimeOut" value="/Node[@Name='TestBed']/Node[@Name='System']/Node[@Name='Custom']/Node[@Name='Servers']/Node[@Name='Server4']/Node[@Name='TimeOut']">
+    </parameter>
+    <parameter name="browser" value="InternetExplorerDriver">
+    </parameter>
+    <parameter name="sUrl" value="$Url">
+    </parameter>
+    <parameter name="sLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="sPassword" value="$Password">
+    </parameter>
+    <parameter name="sUser" value="manager">
+    </parameter>
+    <parameter name="sPass" value="test">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sImage" value="Manager.PNG">
+    </parameter>
+    <parameter name="sFileNameExcel" value="TestData.xlsx">
+    </parameter>
+    <parameter name="sExpectedText" value="Sang">
+    </parameter>
+    <parameter name="sFileNameCSV" value="userList.csv">
+    </parameter>
+    <parameter name="sExpectedTextCSV" value="ntucmy">
+    </parameter>
+    <parameter name="sCourses" value="$Courses">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.Demo" />
+    </classes>
+  </test>
+  </suite>

@@ -1,7 +1,6 @@
 /*
 TC Title : General  - HTTPS enforced - Redirected to HTTPS
 Date : 6/3/2015 11:24:37 AM
-Author : Nguyen Dong
 Design Step : 
 *** TEST OBJECTIVE
 Verify that if a user try to access to login page via HTTP, it will be redirected to HTTPS login page.  After logged on, if a user try to access to a specific resource via HTTP, it will be redirected to HTTPS page.

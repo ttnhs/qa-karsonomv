@@ -1,0 +1,1884 @@
+<suite name="managePortfolios">
+  <listeners>
+    <listener class-name="testng.TestNGCustom" />
+  </listeners>
+  <test name="GUI3002" preserve-order="true">
+    <parameter name="Title" value="GUI3002 - Banker - Main Page - Title and Description Check">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_Description_Txt" value="$Banker_MainPage_Description_Txt">
+    </parameter>
+    <parameter name="sDescription" value="MASTER PORTFOLIOS">
+    </parameter>
+    <parameter name="sTitle" value="Master Portfolios | Open Models Valuation Platform | The Open Models Valuation Company">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3002" />
+    </classes>
+  </test>
+  <test name="GUI3003" preserve-order="true">
+    <parameter name="Title" value="GUI3003 - Banker - Main Page - User and Company Info Check">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Hsbc01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Hsbc01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oUserInfo_Txt" value="$UserInfo_Txt">
+    </parameter>
+    <parameter name="sUserInfo" value="Welcome, Hsbc01 Auto">
+    </parameter>
+    <parameter name="oCompanyInfo_Txt" value="$CompanyInfo_Txt">
+    </parameter>
+    <parameter name="sCompInfo" value="HSBC Auto">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3003" />
+    </classes>
+  </test>
+  <test name="GUI3005" preserve-order="true">
+    <parameter name="Title" value="Banker - Main Page - Page Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="keyTab" value="TAB">
+    </parameter>
+    <parameter name="oBrandingOfOMV_Link" value="$BrandingOfOMV_Link">
+    </parameter>
+    <parameter name="oModelers_Link" value="$Modelers_Link">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="keyShift" value="SHIFT">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3005" />
+    </classes>
+  </test>
+  <test name="GUI3012" preserve-order="true">
+    <parameter name="Title" value="GUI3012 - Banker - Main Page - Create Master Portfolio  link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="OBanker_CreateMaster_Description_Txt" value="$Banker_CreateMaster_Description_Txt">
+    </parameter>
+    <parameter name="sDesc" value="CREATE MASTER PORTFOLIO">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3012" />
+    </classes>
+  </test>
+  <test name="GUI3020" preserve-order="true">
+    <parameter name="Title" value="GUI3020 - Banker - Create Master Portfolio - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_CUSIP_Txt" value="$Banker_CreateMaster_CUSIP_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3020" />
+    </classes>
+  </test>
+  <test name="GUI3021" preserve-order="true">
+    <parameter name="Title" value="GUI3021 - Banker - Create Master Portfolio - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_CUSIP_Txt" value="$Banker_CreateMaster_CUSIP_Txt">
+    </parameter>
+    <parameter name="keyTab" value="TAB">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_ISIN_Txt" value="$Banker_CreateMaster_ISIN_Txt">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Valoren_Txt" value="$Banker_CreateMaster_Valoren_Txt">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_EnableBNY_Cb" value="$Banker_CreateMaster_EnableBNY_Cb">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Cancel_Btn" value="$Banker_CreateMaster_Cancel_Btn">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Submit_Btn" value="$Banker_CreateMaster_Submit_Btn">
+    </parameter>
+    <parameter name="keyShift" value="SHIFT">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3021" />
+    </classes>
+  </test>
+  <test name="GUI3022" preserve-order="true">
+    <parameter name="Title" value="GUI3022 - Banker - Create Master Portfolio - Unable to access background windows until Master Portfolio  creation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="sImageName" value="Unable to access background_EditBtn.PNG">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog" value="$Banker_CreateMaster_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3022" />
+    </classes>
+  </test>
+  <test name="GUI3025" preserve-order="true">
+    <parameter name="Title" value="GUI3025 - Banker - Create Master Portfolio - CUSIP - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_Mix" value="Cus 09 !あ">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="sMpCUSIP_Upper" value="CUSIP">
+    </parameter>
+    <parameter name="sMpCUSIP_Lower" value="cusip">
+    </parameter>
+    <parameter name="sMpCUSIP_Number" value="059">
+    </parameter>
+    <parameter name="sMpCUSIP_Min" value="C">
+    </parameter>
+    <parameter name="sMpCUSIP_Max" value="9characte">
+    </parameter>
+    <parameter name="sMpCUSIP_Unicode" value="あいうえお">
+    </parameter>
+    <parameter name="sMpCUSIP_Singlequotes" value="''Cusip'">
+    </parameter>
+    <parameter name="sMpCUSIP_Special" value="~%$#@!*">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3025" />
+    </classes>
+  </test>
+  
+  <test name="GUI3026" preserve-order="true">
+    <parameter name="Title" value="GUI3026 - Banker - Create Master Portfolio - CUSIP - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_LeadingTrailing" value="  CUSIP ">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="sMpName" value="ACB-3">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_CUSIP_Txt" value="$Banker_CreateMaster_CUSIP_Txt">
+    </parameter>
+    <parameter name="sExpected" value="CUSIP">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3026" />
+    </classes>
+  </test>
+  <test name="GUI3027" preserve-order="true">
+    <parameter name="Title" value="GUI3027 - Banker - Create Master Portfolio -  CUSIP - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_Max1" value="10characte">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_ErrorMessage" value="$Banker_CreateMaster_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sExpectMessage" value="The field Cusip must be a string with a maximum length of 9.">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_Ok_Btn" value="$Banker_CreateMaster_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3027" />
+    </classes>
+  </test>
+  <test name="GUI3035" preserve-order="true">
+    <parameter name="Title" value="GUI3035 - Banker - Create Master Portfolio - ISIN - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN_Mix" value="Isi 09 !あ">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="sMpISIN_Upper" value="ISIN">
+    </parameter>
+    <parameter name="sMpISIN_Lower" value="isin">
+    </parameter>
+    <parameter name="sMpISIN_Number" value="059">
+    </parameter>
+    <parameter name="sMpISIN_Min" value="I">
+    </parameter>
+    <parameter name="sMpISIN_Max" value="12character1">
+    </parameter>
+    <parameter name="sMpISIN_Unicode" value="あいうえお">
+    </parameter>
+    <parameter name="sMpISIN_Singlequotes" value="'Isin'">
+    </parameter>
+    <parameter name="sMpISIN_Special" value="~%$#@!*">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3035" />
+    </classes>
+  </test>
+  
+  <test name="GUI3036" preserve-order="true">
+    <parameter name="Title" value="GUI3036 - Banker - Create Master Portfolio - ISIN - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN_LeadingTrailing" value="  ISIN ">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="sMpName" value="ACB-4">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_ISIN_Txt" value="$Banker_CreateMaster_ISIN_Txt">
+    </parameter>
+    <parameter name="sExpected" value="ISIN">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3036" />
+    </classes>
+  </test>
+  
+  <test name="GUI3037" preserve-order="true">
+    <parameter name="Title" value="GUI3037 - Banker - Create Master Portfolio - ISIN - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN_Max1" value="13character13">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_ErrorMessage" value="$Banker_CreateMaster_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sExpectMessage" value="The field Isin must be a string with a maximum length of 12.">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_Ok_Btn" value="$Banker_CreateMaster_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3037" />
+    </classes>
+  </test>
+  <test name="GUI3045" preserve-order="true">
+    <parameter name="Title" value="GUI3045 - Banker - Create Master Portfolio - Valoren - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren_Mix" value="Val 09 !あ">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="sMpValoren_Upper" value="VALOREN">
+    </parameter>
+    <parameter name="sMpValoren_Lower" value="valoren">
+    </parameter>
+    <parameter name="sMpValoren_Number" value="059">
+    </parameter>
+    <parameter name="sMpValoren_Min" value="V">
+    </parameter>
+    <parameter name="sMpValoren_Max" value="9characte">
+    </parameter>
+    <parameter name="sMpValoren_Unicode" value="あいうえお">
+    </parameter>
+    <parameter name="sMpValoren_Singlequotes" value="'Valore'">
+    </parameter>
+    <parameter name="sMpValoren_Special" value="~%$#@!*">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3045" />
+    </classes>
+  </test>
+  
+  <test name="GUI3046" preserve-order="true">
+    <parameter name="Title" value="GUI3046 - Banker - Create Master Portfolio -  Valoren - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren_LeadingTrailing" value=" VALOREN ">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="sMpName" value="ACB-5">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Valoren_Txt" value="$Banker_CreateMaster_Valoren_Txt">
+    </parameter>
+    <parameter name="sExpected" value="VALOREN">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3046" />
+    </classes>
+  </test>
+  <test name="GUI3047" preserve-order="true">
+    <parameter name="Title" value="GUI3047 - Banker - Create Master Portfolio - Valoren - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren_Max1" value="10characte">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_ErrorMessage" value="$Banker_CreateMaster_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sExpectMessage" value="The field Valoren must be a string with a maximum length of 9.">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_Ok_Btn" value="$Banker_CreateMaster_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3047" />
+    </classes>
+  </test>
+  <test name="GUI3055" preserve-order="true">
+    <parameter name="Title" value="GUI3055 - Banker - Create Master Portfolio - Enable BNY - Default setting ">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_EnableBNY_Cb" value="$Banker_CreateMaster_EnableBNY_Cb">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3055" />
+    </classes>
+  </test>
+  <test name="GUI3056" preserve-order="true">
+    <parameter name="Title" value="GUI3056 - Admin - Manage Users - Create User - Suspend - Mouse and keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_EnableBNY_Cb" value="$Banker_CreateMaster_EnableBNY_Cb">
+    </parameter>
+    <parameter name="keySpace" value="SPACE">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3056" />
+    </classes>
+  </test>
+  <test name="GUI3070" preserve-order="true">
+    <parameter name="Title" value="GUI3070 - Banker - Create Master Portfolio - Create Master portfolios for HSBC bank">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB1" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB1" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB1" value="037833100">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Checked">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB2" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB2" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB2" value="037833100">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3070" />
+    </classes>
+  </test>
+  <test name="GUI3071" preserve-order="true">
+    <parameter name="Title" value="GUI3071 - Banker - Create Master Portfolio - Create Master portfolios for ACB bank">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB1" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB1" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB1" value="037833100">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Checked">
+    </parameter>
+    <parameter name="sMpCUSIP_HSB2" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN_HSB2" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren_HSB2" value="037833100">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3071" />
+    </classes>
+  </test>
+  <test name="GUI3101" preserve-order="true">
+    <parameter name="Title" value="GUI3101 - Banker - Edit Master Portfolio - Edit Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Description_Txt" value="$Banker_CreateSub_Description_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3101" />
+    </classes>
+  </test>
+  <test name="GUI3102" preserve-order="true">
+    <parameter name="Title" value="GUI3102 - Banker - Edit Master Portfolio - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_CUSIP_Txt" value="$Banker_CreateMaster_CUSIP_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3102" />
+    </classes>
+  </test>
+  <test name="GUI3104" preserve-order="true">
+    <parameter name="Title" value="GUI3104 - Banker - Edit Master Portfolio - Unable to access background windows until MP edition completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sImageName" value="Unable to access background_EditBtn.PNG">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog" value="$Banker_CreateMaster_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3104" />
+    </classes>
+  </test>
+  <test name="GUI3105" preserve-order="true">
+    <parameter name="Title" value="GUI3105 - Banker - Edit Master Portfolio - Edit page should contain valid data of the selected master portfolio">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="HSB-1">
+    </parameter>
+    <parameter name="oBanker_EditMaster_MPName_Txt" value="$Banker_EditMaster_MPName_Txt">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_CUSIP_Txt" value="$Banker_CreateMaster_CUSIP_Txt">
+    </parameter>
+    <parameter name="sMpCUSIP" value="037833100">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_ISIN_Txt" value="$Banker_CreateMaster_ISIN_Txt">
+    </parameter>
+    <parameter name="sMpISIN" value="US0378331005">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Valoren_Txt" value="$Banker_CreateMaster_Valoren_Txt">
+    </parameter>
+    <parameter name="sMpValoren" value="037833100">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_EnableBNY_Cb" value="$Banker_CreateMaster_EnableBNY_Cb">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3105" />
+    </classes>
+  </test>
+  <test name="GUI3112" preserve-order="true">
+    <parameter name="Title" value="GUI3112 - Banker - Edit Master Portfolio - CUSIP - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sMpCUSIP_Changed_Mix" value="Cus 09 !あ">
+    </parameter>
+    <parameter name="sMpISIN_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sMpValoren_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_CUSIP_Txt" value="$Banker_CreateMaster_CUSIP_Txt">
+    </parameter>
+    <parameter name="sMpCUSIP_Changed_Min" value="C">
+    </parameter>
+    <parameter name="sMpCUSIP_Changed_Max" value="9characte">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3112" />
+    </classes>
+  </test>
+  <test name="GUI3113" preserve-order="true">
+    <parameter name="Title" value="GUI3113 - Banker - Edit Master Portfolio -  CUSIP - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sMpCUSIP_Max1" value="10characte">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_ErrorMessage" value="$Banker_CreateMaster_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sExpectMessage" value="The field Cusip must be a string with a maximum length of 9.">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_Ok_Btn" value="$Banker_CreateMaster_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3113" />
+    </classes>
+  </test>
+  <test name="GUI3116" preserve-order="true">
+    <parameter name="Title" value="GUI3116 - Banker - Edit Master Portfolio - ISIN - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sMpCUSIP_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sMpISIN_Changed_Mix" value="Isi 09 !あ">
+    </parameter>
+    <parameter name="sMpValoren_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_ISIN_Txt" value="$Banker_CreateMaster_ISIN_Txt">
+    </parameter>
+    <parameter name="sMpISIN_Changed_Min" value="I">
+    </parameter>
+    <parameter name="sMpISIN_Changed_Max" value="12character1">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3116" />
+    </classes>
+  </test>
+  <test name="GUI3117" preserve-order="true">
+    <parameter name="Title" value="GUI3117 - Banker - Edit Master Portfolio - ISIN - Change to Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN_Max1" value="13character13">
+    </parameter>
+    <parameter name="sMpValoren" value="">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_ErrorMessage" value="$Banker_CreateMaster_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sExpectMessage" value="The field Isin must be a string with a maximum length of 12.">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_Ok_Btn" value="$Banker_CreateMaster_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3117" />
+    </classes>
+  </test>
+  <test name="GUI3120" preserve-order="true">
+    <parameter name="Title" value="GUI3120 - Banker - Edit Master Portfolio - Valoren - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sMpCUSIP_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sMpISIN_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sMpValoren_Changed_Mix" value="Val 09 !あ">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Valoren_Txt" value="$Banker_CreateMaster_Valoren_Txt">
+    </parameter>
+    <parameter name="sMpValoren_Changed_Min" value="V">
+    </parameter>
+    <parameter name="sMpValoren_Changed_Max" value="9characte">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3120" />
+    </classes>
+  </test>
+  <test name="GUI3121" preserve-order="true">
+    <parameter name="Title" value="GUI3121 - Banker - Edit Master Portfolio - Valoren - Change to Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="anz01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="sMpCUSIP" value="">
+    </parameter>
+    <parameter name="sMpISIN" value="">
+    </parameter>
+    <parameter name="sMpValoren_Max1" value="10characte">
+    </parameter>
+    <parameter name="mpEnableBNY" value="Unchecked">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_ErrorMessage" value="$Banker_CreateMaster_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sExpectMessage" value="The field Valoren must be a string with a maximum length of 9.">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Dialog_Ok_Btn" value="$Banker_CreateMaster_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3121" />
+    </classes>
+  </test>
+  <test name="GUI3125" preserve-order="true">
+    <parameter name="Title" value="GUI3125 - Banker - Edit Master Portfolio - Enable BNY">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Anz01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Anz01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="ANZ-1">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_EnableBNY_Cb" value="$Banker_CreateMaster_EnableBNY_Cb">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Submit_Btn" value="$Banker_CreateMaster_Submit_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3125" />
+    </classes>
+  </test>
+  
+  <test name="GUI3160" preserve-order="true">
+    <parameter name="Title" value="GUI3160 - Banker - Master Portfolio Table - Master Portfolio data should be shown properly">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Hsbc01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Hsbc01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="HSB-1">
+    </parameter>
+    <parameter name="sMpCUSIP" value="037833100">
+    </parameter>
+    <parameter name="sMpISIN" value="US0378331005">
+    </parameter>
+    <parameter name="sMpValoren" value="037833100">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3160" />
+    </classes>
+  </test>
+  <test name="GUI3200" preserve-order="true">
+    <parameter name="Title" value="GUI3200 - Banker - Main Page - Create Sub-Portfolio link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="HSB-1">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateSub_Link" value="$Banker_MainPage_CreateSub_Link">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Description_Txt" value="$Banker_CreateSub_Description_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3200" />
+    </classes>
+  </test>
+  <test name="GUI3201" preserve-order="true">
+    <parameter name="Title" value="GUI3201 - Banker - Create Sub-Portfolio  - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMPName" value="HSB-1">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Link" value="$Banker_CreateSub_Link">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Currency_Txt" value="$Banker_CreateSub_Currency_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3201" />
+    </classes>
+  </test>
+  <test name="GUI3202" preserve-order="true">
+    <parameter name="Title" value="GUI3202 - Banker - Create Sub-Portfolio  - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us 	">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sMasterPortfolio" value="HSB-1">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Link" value="$Banker_CreateSub_Link">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Currency_Txt" value="$Banker_CreateSub_Currency_Txt">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Submit_Btn" value="$Banker_CreateSub_Submit_Btn">
+    </parameter>
+    <parameter name="sNumberPress" value="5">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3202" />
+    </classes>
+  </test>
+  <test name="GUI3203" preserve-order="true">
+    <parameter name="Title" value="">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sMPName" value="HSB-1">
+    </parameter>
+    <parameter name="oBanker_CreateSub_Link" value="$Banker_CreateSub_Link">
+    </parameter>
+    <parameter name="sImageName" value="Unable to access background_EditBtn.PNG">
+    </parameter>
+    <parameter name="ooBanker_CreateSub_Modal" value="$Banker_CreateSub_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3203" />
+    </classes>
+  </test>
+  <test name="GUI3252" preserve-order="true">
+    <parameter name="Title" value="Banker - Create Sub-Portfolio  - Sub-Portfolios for HSBC bank with CloudRisk and JCRA">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMPName" value="HSB-1">
+    </parameter>
+    <parameter name="sCurrencyUSD" value="USD">
+    </parameter>
+    <parameter name="sAssetClassCommercial" value="Commercial">
+    </parameter>
+    <parameter name="sGeographyUS" value="US">
+    </parameter>
+    <parameter name="sModelingFirmCloudRisk" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClassStudentLoan" value="Student Loan">
+    </parameter>
+    <parameter name="sMPNameHSB2" value="HSB-2">
+    </parameter>
+    <parameter name="sCurrencyEUR" value="EUR">
+    </parameter>
+    <parameter name="sGeographyUK" value="UK">
+    </parameter>
+    <parameter name="sModelingFirmJCRA" value="JCRA Auto">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3252" />
+    </classes>
+  </test>
+  <test name="GUI3253" preserve-order="true">
+    <parameter name="Title" value="Banker - Create Sub-Portfolio  - Sub-Portfolios for HSBC bank with CloudRisk and JCRA">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="acb01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMPName" value="ACB-1">
+    </parameter>
+    <parameter name="sCurrencyUSD" value="USD">
+    </parameter>
+    <parameter name="sAssetClassCommercial" value="Commercial">
+    </parameter>
+    <parameter name="sGeographyUS" value="US">
+    </parameter>
+    <parameter name="sModelingFirmCloudRisk" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClassStudentLoan" value="Student Loan">
+    </parameter>
+    <parameter name="sMPNameHSB2" value="ACB-2">
+    </parameter>
+    <parameter name="sCurrencyEUR" value="EUR">
+    </parameter>
+    <parameter name="sGeographyUK" value="UK">
+    </parameter>
+    <parameter name="sModelingFirmJCRA" value="JCRA Auto">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3253" />
+    </classes>
+  </test>
+  <test name="GUI3270" preserve-order="true">
+    <parameter name="Title" value="GUI3270 - Banker - Sub-Portfolio Table - Table Details">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sMPName" value="HSB-1">
+    </parameter>
+    <parameter name="oBanker_SubList_THeader" value="$Banker_SubList_THeader">
+    </parameter>
+    <parameter name="sSubPortfolioName" value="Sub-Portfolio Name">
+    </parameter>
+    <parameter name="sGeography" value="Geography">
+    </parameter>
+    <parameter name="sAssetClass" value="Asset Class">
+    </parameter>
+    <parameter name="sCurrency" value="Currency">
+    </parameter>
+    <parameter name="sStatus" value="Status">
+    </parameter>
+    <parameter name="sNominal" value="Nominal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3270" />
+    </classes>
+  </test>
+  <test name="GUI3302" preserve-order="true">
+    <parameter name="Title" value="">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="Hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-1">
+    </parameter>
+    <parameter name="sExpectedTitle" value="Sub-Portfolio | Open Models Valuation Platform | The Open Models Valuation Company">
+    </parameter>
+    <parameter name="oBanker_SubDetail_Description_MasterPortfolioLink" value="$Banker_SubDetail_Description_MasterPortfolioLink">
+    </parameter>
+    <parameter name="sMasterPortfolio" value="Master Portfolios">
+    </parameter>
+    <parameter name="oBanker_SubDetail_Description_SubPortfolioName" value="$Banker_SubDetail_Description_SubPortfolioName">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3302" />
+    </classes>
+  </test>
+  <test name="GUI3307" preserve-order="true">
+    <parameter name="Title" value="GUI3307 - Banker - Sub-Portfolio  - Main Page - Master Portfolios  link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-1">
+    </parameter>
+    <parameter name="oBanker_SubDetail_Description_MasterPortfolioLink" value="$Banker_SubDetail_Description_MasterPortfolioLink">
+    </parameter>
+    <parameter name="oBanker_MainPage_Description_Txt" value="$Banker_MainPage_Description_Txt">
+    </parameter>
+    <parameter name="sMasterPortfolio" value="MASTER PORTFOLIOS">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3307" />
+    </classes>
+  </test>
+  <test name="GUI3309" preserve-order="true">
+    <parameter name="Title" value="GUI3309 - Banker - Sub-Portfolio  - Main Page - Import Reference Data link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-1">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImport_Link" value="$Banker_SubDetail_ReferImprt_Link">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImport_Description_Txt" value="$Banker_SubDetail_ReferImprt_Description_Txt">
+    </parameter>
+    <parameter name="sDescription" value="IMPORT REFERENCE DATA">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3309" />
+    </classes>
+  </test>
+  <test name="GUI3321" preserve-order="true">
+    <parameter name="Title" value="GUI3321 - Banker - Sub-Portfolio  - Download Template - File header">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-1">
+    </parameter>
+    <parameter name="oBanker_SubDetail_DownloadTemplate_Link" value="$Banker_SubDetail_DownloadTemplate_Link">
+    </parameter>
+    <parameter name="sScriptName" value="downloadFile">
+    </parameter>
+    <parameter name="sSleepTime" value="10">
+    </parameter>
+    <parameter name="sFileName" value="ReferenceDataForm.xlsx">
+    </parameter>
+    <parameter name="sExternalid" value="Loan Account Number">
+    </parameter>
+    <parameter name="sObservationDate" value="Observation Date">
+    </parameter>
+    <parameter name="sOriginationDate" value="Time Origination">
+    </parameter>
+    <parameter name="sMaturityDate" value="Time Maturity">
+    </parameter>
+    <parameter name="sLoanAmount" value="Loan Amount">
+    </parameter>
+    <parameter name="sInterestRate" value="Interest Rate">
+    </parameter>
+    <parameter name="sIsAdjustable" value="Is Adjustable Rate">
+    </parameter>
+    <parameter name="sIsBalloon" value="Balloon">
+    </parameter>
+    <parameter name="sCollateralValue" value="Collateral Value">
+    </parameter>
+    <parameter name="sGuaranteeValue" value="Guarantee Value">
+    </parameter>
+    <parameter name="sInterestOnlyPeriod" value="Interest Only period">
+    </parameter>
+    <parameter name="sRating" value="Agency Rating">
+    </parameter>
+    <parameter name="sTerminationDate" value="Termination Date">
+    </parameter>
+    <parameter name="sTerminationType" value="Termination Type">
+    </parameter>
+    <parameter name="sLossAmount" value="Loss Amount">
+    </parameter>
+    <parameter name="sEverDilinquent" value="Ever Dilinquent">
+    </parameter>
+    <parameter name="sDateOfDelinquency" value="Date of Delinquency">
+    </parameter>
+    <parameter name="sWorstDelinquencyStatus" value="Worst Delinquency Status">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3321" />
+    </classes>
+  </test>
+  <test name="GUI3340" preserve-order="true">
+    <parameter name="Title" value="GUI3340 - Banker - Sub-Portfolio  - Import Reference Data - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sMpName" value="HSB-1">
+    </parameter>
+    <parameter name="sSpName" value="HSB-1-1">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferenceImport_Link" value="$Banker_SubDetail_ReferenceImprt_Link">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImport_Browse_Btn" value="$Banker_SubDetail_ReferImprt_Browse_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3340" />
+    </classes>
+  </test>
+  <test name="GUI3342" preserve-order="true">
+    <parameter name="Title" value="GUI3342 - Banker - Sub-Portfolio  - Import Reference Data - Unable to access background windows until  Master Portfolio creation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-1">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImport_Link" value="$Banker_SubDetail_ReferImprt_Link">
+    </parameter>
+    <parameter name="sImageName" value="Loan.PNG">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImport_Modal" value="$Banker_SubDetail_ReferImprt_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3342" />
+    </classes>
+  </test>
+  <test name="GUI3367" preserve-order="true">
+    <parameter name="Title" value="GUI3367 - Banker - Sub-Portfolio  - Import Reference Data - Some required fields not filled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sSpName" value="ACB-1-1">
+    </parameter>
+    <parameter name="sInvalidRefData" value="ReferenceData_Invalid_RequiredNotFilled.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImprt_Dialog_ErrorMessage" value="$Banker_SubDetail_ReferImprt_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sErrorMessage" value="Failed to create reference data from file upload.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3367" />
+    </classes>
+  </test>
+  <test name="GUI3368" preserve-order="true">
+    <parameter name="Title" value="GUI3368 - Banker - Sub-Portfolio  - Import Reference Data - Some required fields filled with spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sSpName" value="ACB-1-1">
+    </parameter>
+    <parameter name="sInvalidRefData" value="ReferenceData_Invalid_Required_Spaces.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImprt_Dialog_ErrorMessage" value="$Banker_SubDetail_ReferImprt_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sErrorMessage" value="Failed to create reference data from file upload.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3368" />
+    </classes>
+  </test>
+  <test name="GUI3373" preserve-order="true">
+    <parameter name="Title" value="GUI3373 - Banker - Sub-Portfolio  - Import Reference Data - Invalid data type, both required and optional">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sSpName" value="ACB-1-1">
+    </parameter>
+    <parameter name="sInvalidRefData" value="ReferenceData_Invalid_DataType.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImprt_Dialog_ErrorMessage" value="$Banker_SubDetail_ReferImprt_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sErrorMessage" value="Failed to create reference data from file upload.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3373" />
+    </classes>
+  </test>
+  <test name="GUI3374" preserve-order="true">
+    <parameter name="Title" value="GUI3374 - Banker - Sub-Portfolio  - Import Reference Data - Contain some empty rows">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sSpName" value="ACB-1-1">
+    </parameter>
+    <parameter name="sInvalidRefData" value="ReferenceData_Invalid_EmptyRows.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImprt_Dialog_ErrorMessage" value="$Banker_SubDetail_ReferImprt_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sErrorMessage" value="Failed to create reference data from file upload.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3374" />
+    </classes>
+  </test>
+  <test name="GUI3375" preserve-order="true">
+    <parameter name="Title" value="GUI3375 - Banker - Sub-Portfolio  - Import Reference Data - Header only">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Acb01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="sSpName" value="ACB-1-1">
+    </parameter>
+    <parameter name="sInvalidRefData" value="ReferenceData_InValid_HeaderOnly.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetail_ReferImprt_Dialog_ErrorMessage" value="$Banker_SubDetail_ReferImprt_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="sErrorMessage" value="Failed to create reference data from file upload.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3375" />
+    </classes>
+  </test>
+  <test name="GUI3376" preserve-order="true">
+    <parameter name="Title" value="GUI3376 - Verify that the loan uploaded properly with valid data.">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-1">
+    </parameter>
+    <parameter name="sFileName" value="HSB-1-1-ReferenceData_CloudRisk_Commercial_US_USD_1Loan.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetailList_Tb" value="$Banker_SubDetailList_Tb">
+    </parameter>
+    <parameter name="sLoanName" value="123456789111">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3376" />
+    </classes>
+  </test>
+  <test name="GUI3377" preserve-order="true">
+    <parameter name="Title" value="GUI3377 - Verify that all loans uploaded properly with valid data.">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-1-2">
+    </parameter>
+    <parameter name="sFileName" value="HSB-1-2-ReferenceData_CloudRisk_StudentLoan_US_USD_3Loans.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetailList_Tb" value="$Banker_SubDetailList_Tb">
+    </parameter>
+    <parameter name="sLoanNameNumber1" value="123456789121">
+    </parameter>
+    <parameter name="sLoanNameNumber2" value="123456789122">
+    </parameter>
+    <parameter name="sLoanNameNumber3" value="123456789123">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3377" />
+    </classes>
+  </test>
+  <test name="GUI3383" preserve-order="true">
+    <parameter name="Title" value="GUI3383 - Banker - Sub-Portfolio  - Import Reference Data - Existing loan with same data provided and some new loans">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-2-1">
+    </parameter>
+    <parameter name="sFileNameOneLoan" value="HSB-2-1-ReferenceData_JCRA_Commercial_UK_EUR_FirstImported_1Loan.xlsx">
+    </parameter>
+    <parameter name="sFileNameMultipleLoan" value="HSB-2-1-ReferenceData_JCRA_Commercial_UK_EUR_SecondImported_Same_NewLoans_3Loans.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetailList_Tb" value="$Banker_SubDetailList_Tb">
+    </parameter>
+    <parameter name="sLoanNameNumber1" value="123456789211">
+    </parameter>
+    <parameter name="sLoanNameNumber2" value="123456789212">
+    </parameter>
+    <parameter name="sLoanNameNumber3" value="123456789213">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3383" />
+    </classes>
+  </test>
+  <test name="GUI3385" preserve-order="true">
+    <parameter name="Title" value="GUI3385 - Banker - Sub-Portfolio  - Import Reference Data - Exisitng loan with different data provided and some new loans">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="hsbc01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="sSPName" value="HSB-2-1">
+    </parameter>
+    <parameter name="sFileNameOneLoan" value="HSB-2-1-ReferenceData_JCRA_Commercial_UK_EUR_FirstImported_1Loan.xlsx">
+    </parameter>
+    <parameter name="sFileNameMultipleLoan" value="HSB-2-1-ReferenceData_JCRA_Commercial_UK_EUR_SecondImported_Same_NewLoans_3Loans.xlsx">
+    </parameter>
+    <parameter name="oBanker_SubDetailList_Tb" value="$Banker_SubDetailList_Tb">
+    </parameter>
+    <parameter name="sLoanNameNumber1" value="123456789221">
+    </parameter>
+    <parameter name="sLoanNameNumber2" value="123456789222">
+    </parameter>
+    <parameter name="sLoanNameNumber3" value="123456789223">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI3385" />
+    </classes>
+  </test>
+</suite>

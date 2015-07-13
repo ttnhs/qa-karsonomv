@@ -1,0 +1,2262 @@
+<suite name="manageUsers">
+  <listeners>
+    <listener class-name="testng.TestNGCustom" />
+  </listeners>
+  <test name="GUI1300" preserve-order="true">
+    <parameter name="Title" value="GUI1300 - Admin - Manage Users - Main page - Description Check">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Txt" value="$ManageUser_Txt">
+    </parameter>
+    <parameter name="Expected" value="MANAGE USERS">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1300" />
+    </classes>
+  </test>
+  <test name="GUI1301" preserve-order="true">
+    <parameter name="Title" value="GUI1301 - Admin - Manage Users - Main page - Page Title">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sExpected" value="Users | Open Models Valuation Platform | The Open Models Valuation Company">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1301" />
+    </classes>
+  </test>
+  <test name="GUI1302" preserve-order="true">
+    <parameter name="Title" value="GUI1302 - Admin - Manage Users - Main page - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sKeyTab" value="TAB">
+    </parameter>
+    <parameter name="oBrandingOfOMV_Link" value="$BrandingOfOMV_Link">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oModelers_Link" value="$Modelers_Link">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageCompany_Link" value="$ManageCompany_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sKeyShift" value="SHIFT">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1302" />
+    </classes>
+  </test>
+  <test name="GUI1304" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Users - Main page - Create User Link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1304" />
+    </classes>
+  </test>
+  <test name="GUI1311" preserve-order="true">
+    <parameter name="Title" value="GUI1311 - Admin - Manage Users - Create User - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_FirstName_Txt" value="$ManageUser_Create_FirstName_Txt">
+    </parameter>
+    <parameter name="sKeyTab" value="TAB">
+    </parameter>
+    <parameter name="oManageUser_Create_LastName_Txt" value="$ManageUser_Create_LastName_Txt">
+    </parameter>
+    <parameter name="oManageUser_Create_SuspendUser_Cb" value="$ManageUser_Create_SuspendUser_Cb">
+    </parameter>
+    <parameter name="oManageUser_Create_Cancel_Btn" value="$ManageUser_Create_Cancel_Btn">
+    </parameter>
+    <parameter name="oManageUser_Create_Save_Btn" value="$ManageUser_Create_Save_Btn">
+    </parameter>
+    <parameter name="sKeyShift" value="SHIFT">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1311" />
+    </classes>
+  </test>
+  <test name="GUI1320" preserve-order="true">
+    <parameter name="Title" value="GUI1320 - Admin - Manage Users - Create User - First Name - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="FirstName_Mix" value="FirstName059!#$">
+    </parameter>
+    <parameter name="sLastName" value="Admin03">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="FirstName_Upper" value="FIRSTNAME">
+    </parameter>
+    <parameter name="FirstName_Lower" value="firstname">
+    </parameter>
+    <parameter name="FirstName_Special" value="~!#$^-_'">
+    </parameter>
+    <parameter name="FirstName_Min" value="A">
+    </parameter>
+    <parameter name="FirstName_SingleQuotes" value="'Firstname'">
+    </parameter>
+    <parameter name="FirstName_Max" value="50characterswithoutspaces50characterswithoutspaces">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1320" />
+    </classes>
+  </test>
+  <test name="GUI1321" preserve-order="true">
+    <parameter name="Title" value="GUI1321 - Admin - Manage Users - Create User - First Name - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="    Firstname     ">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sFirstNameTrim" value="Fristname">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1321" />
+    </classes>
+  </test>
+  <test name="GUI1323" preserve-order="true">
+    <parameter name="Title" value="GUI1323 - First Name - Invalid - Error message - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Save_Btn" value="$ManageUser_Create_Save_Btn">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_ErrorMessage" value="$ManageUser_Create_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="errorMessage" value="error creating user - Object reference not set to an instance of an object.">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_Ok_Btn" value="$ManageUser_Create_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1323" />
+    </classes>
+  </test>
+  <test name="GUI1325" preserve-order="true">
+    <parameter name="Title" value="GUI1325 - Admin - Manage Users - Create User - Last Name - Valid">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Auto">
+    </parameter>
+    <parameter name="LastName_Mix" value="LastName059!#$">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="LastName_Upper" value="LASTNAME">
+    </parameter>
+    <parameter name="LastName_Lower" value="lastname">
+    </parameter>
+    <parameter name="LastName_Special" value="~!#$^-_'">
+    </parameter>
+    <parameter name="LastName_Number" value="123456789">
+    </parameter>
+    <parameter name="LastName_Max" value="50characterswithoutspaces50characterswithoutspaces">
+    </parameter>
+    <parameter name="LastName_SingleQuotes" value="''Lastname'">
+    </parameter>
+    <parameter name="LastName_Min" value="A">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1325" />
+    </classes>
+  </test>
+  <test name="GUI1326" preserve-order="true">
+    <parameter name="Title" value="GUI1326 - Admin - Manage Users - Create User - Last Name - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1326">
+    </parameter>
+    <parameter name="sLastName" value="    Lastname     ">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sLastNameTrim" value="Lastname">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1326" />
+    </classes>
+  </test>
+  <test name="GUI1327" preserve-order="true">
+    <parameter name="Title" value="GUI1327 - Admin - Manage Users - Create User - Last Name - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1327">
+    </parameter>
+    <parameter name="sLastName_Empty" value="">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_ErrorMessage" value="$ManageUser_Create_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="errorMessage_Empty" value="The LastName field is required.">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_Ok_Btn" value="$ManageUser_Create_Dialog_Ok_Btn">
+    </parameter>
+    <parameter name="sLastName_Whitespace" value="    ">
+    </parameter>
+    <parameter name="errorMessage_Whitespace" value="The LastName field is required.">
+    </parameter>
+    <parameter name="sLastName_StartEndADot" value=".Lastname.">
+    </parameter>
+    <parameter name="errorMessage_StartEndADot" value="Error creating user - Invalid value specified for property 'mailNickname' of resource 'User'.">
+    </parameter>
+    <parameter name="sLastName_Contain" value="@">
+    </parameter>
+    <parameter name="errorMessage_Contain" value="Error creating user - Invalid value specified for property 'mailNickname' of resource 'User'.">
+    </parameter>
+    <parameter name="sLastName_Max1" value="51characterswithoutspaces51characterswithoutspaces5">
+    </parameter>
+    <parameter name="errorMessage_Max1" value="error creating user - Invalid value specified for property 'mailNickname' of resource 'User'.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1327" />
+    </classes>
+  </test>
+  <test name="GUI1328" preserve-order="true">
+    <parameter name="Title" value="GUI1328 - Last Name - Invalid - Error message - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Save_Btn" value="$ManageUser_Create_Save_Btn">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_ErrorMessage" value="$ManageUser_Create_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="errorMessage" value="error creating user - Object reference not set to an instance of an object.">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_Ok_Btn" value="$ManageUser_Create_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1328" />
+    </classes>
+  </test>
+  <test name="GUI1335" preserve-order="true">
+    <parameter name="Title" value="GUI1335 - Admin - Manage Users - Create User - Password - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1335">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass_Min1" value="Min1~min1">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="sPass_Min" value="Min1~min">
+    </parameter>
+    <parameter name="sPass_Max" value="Maximum1~maximum">
+    </parameter>
+    <parameter name="sPass_Max1" value="Maximum~maximum">
+    </parameter>
+    <parameter name="sPass_Mix1" value="UPlow059">
+    </parameter>
+    <parameter name="sPass_Mix2" value="UPlow~#$^%">
+    </parameter>
+    <parameter name="sPass_Mix5" value="UPlow059~#$^%">
+    </parameter>
+    <parameter name="sPass_Mix3" value="UP059~#$^%">
+    </parameter>
+    <parameter name="sPass_Mix4" value="low059~#$^%">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1335" />
+    </classes>
+  </test>
+  <test name="GUI1336" preserve-order="true">
+    <parameter name="Title" value="GUI1336 - Admin - Manage Users - Create User - Last Name - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1336">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPassword_UpperLower" value="UPPERlower">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_ErrorMessage" value="$ManageUser_Create_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="errorMessage_UpperLower" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_Ok_Btn" value="$ManageUser_Create_Dialog_Ok_Btn">
+    </parameter>
+    <parameter name="sPassword_UpperNum" value="UPPER059">
+    </parameter>
+    <parameter name="errorMessage_UpperNum" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_UpperSym" value="UPPER~!#$^">
+    </parameter>
+    <parameter name="errorMessage_UpperSym" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_LowerSym" value="lower~!#$^">
+    </parameter>
+    <parameter name="errorMessage_LowerSym" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_LowerNum" value="lower058">
+    </parameter>
+    <parameter name="errorMessage_LowerNum" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_NumSym" value="058~!#$^">
+    </parameter>
+    <parameter name="errorMessage_NumSym" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_Upper" value="UPPERCASE">
+    </parameter>
+    <parameter name="errorMessage_Upper" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_Lower" value="lowercase">
+    </parameter>
+    <parameter name="errorMessage_Lower" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_Num" value="123456789">
+    </parameter>
+    <parameter name="errorMessage_Num" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_Sym" value="@#$%^*-_+[]{}">
+    </parameter>
+    <parameter name="errorMessage_Sym" value="error creating user - The specified password does not comply with password complexity requirements. Please provide a different password.">
+    </parameter>
+    <parameter name="sPassword_Max1" value="17CharacterCharac">
+    </parameter>
+    <parameter name="errorMessage_Max1" value="error creating user - Invalid format: Invalid characters in password">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1336" />
+    </classes>
+  </test>
+  <test name="GUI1342" preserve-order="true">
+    <parameter name="Title" value="GUI1342 -  Admin - Manage Users - Create User - Company - Default selection">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1342" />
+    </classes>
+  </test>
+  <test name="GUI1345" preserve-order="true">
+    <parameter name="Title" value="GUI1345 - Admin - Manage Users - Create User - Company - Mouse and keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Company_Dd" value="$ManageUser_Create_Company_Dd">
+    </parameter>
+    <parameter name="keyEnter" value="ENTER">
+    </parameter>
+    <parameter name="keyDown" value="DOWN">
+    </parameter>
+    <parameter name="sExpected_Down" value="HSBC Auto">
+    </parameter>
+    <parameter name="keyUp" value="UP">
+    </parameter>
+    <parameter name="sExpected_Up" value="Radley">
+    </parameter>
+    <parameter name="keyRight" value="RIGHT">
+    </parameter>
+    <parameter name="sExpected_Right" value="HSBC Auto">
+    </parameter>
+    <parameter name="keyLeft" value="LEFT">
+    </parameter>
+    <parameter name="sExpected_Left" value="Radley">
+    </parameter>
+    <parameter name="keyPageDown" value="PAGE_DOWN">
+    </parameter>
+    <parameter name="sExpected_PageDown" value="ING Bank">
+    </parameter>
+    <parameter name="keyPageUp" value="PAGE_UP">
+    </parameter>
+    <parameter name="sExpected_PageUp" value="Radley">
+    </parameter>
+    <parameter name="keySpace" value="SPACE">
+    </parameter>
+    <parameter name="keyT" value="T">
+    </parameter>
+    <parameter name="sExpected_keyT" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="keyC" value="C">
+    </parameter>
+    <parameter name="sExpected_keyC" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="keyH" value="H">
+    </parameter>
+    <parameter name="sExpected_KeyH" value="HSBC Auto">
+    </parameter>
+    <parameter name="sExpected_Space_PageDown" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="sExpected_Space_PageUp" value="HSBC Auto">
+    </parameter>
+    <parameter name="keyEnd" value="END">
+    </parameter>
+    <parameter name="sExpected_End" value="OMV01 Auto">
+    </parameter>
+    <parameter name="keyHome" value="HOME">
+    </parameter>
+    <parameter name="sExpected_Home" value="Radley">
+    </parameter>
+    <parameter name="keyAlt" value="ALT">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1345" />
+    </classes>
+  </test>
+  <test name="GUI1350" preserve-order="true">
+    <parameter name="Title" value="GUI1350 - Admin - Manage Users - Create User - Suspend - Default setting">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_SuspendUser_Cb" value="$ManageUser_Create_SuspendUser_Cb">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1350" />
+    </classes>
+  </test>
+  <test name="GUI1351" preserve-order="true">
+    <parameter name="Title" value="GUI1351 - Admin - Manage Users - Create User - Suspend - Mouse and keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_SuspendUser_Cb" value="$ManageUser_Create_SuspendUser_Cb">
+    </parameter>
+    <parameter name="keySpace" value="SPACE">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1351" />
+    </classes>
+  </test>
+  <test name="GUI1363" preserve-order="true">
+    <parameter name="Title" value="GUI1363 - Admin - Manage Users - Create User - Cancel Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_FirstName_Txt" value="$ManageUser_Create_FirstName_Txt">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1363">
+    </parameter>
+    <parameter name="oManageUser_Create_LastName_Txt" value="$ManageUser_Create_LastName_Txt">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="oManageUser_Create_Password_Txt" value="$ManageUser_Create_Password_Txt">
+    </parameter>
+    <parameter name="oManageUser_Create_Company_Dd" value="$ManageUser_Create_Company_Dd">
+    </parameter>
+    <parameter name="Company_Dd" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="oManageUser_Create_Cancel_Btn" value="$ManageUser_Create_Cancel_Btn">
+    </parameter>
+    <parameter name="oManageUser_CreateUser_Dialog" value="$ManageUser_CreateUser_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1363" />
+    </classes>
+  </test>
+  <test name="GUI1364" preserve-order="true">
+    <parameter name="Title" value="GUI1364 - Admin - Manage Users - Create User - Cancel  Button - With and without data filled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="ManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_FirstName_Txt" value="$ManageUser_Create_FirstName_Txt">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1364">
+    </parameter>
+    <parameter name="oManageUser_Create_LastName_Txt" value="$ManageUser_Create_LastName_Txt">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="oManageUser_Create_Password_Txt" value="$ManageUser_Create_Password_Txt">
+    </parameter>
+    <parameter name="oManageUser_Create_Company_Dd" value="$ManageUser_Create_Company_Dd">
+    </parameter>
+    <parameter name="Company_Dd" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="oManageUser_Create_Cancel_Btn" value="$ManageUser_Create_Cancel_Btn">
+    </parameter>
+    <parameter name="oManageUser_CreateUser_Dialog" value="$ManageUser_CreateUser_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1364" />
+    </classes>
+  </test>
+  <test name="GUI1370" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Users - Create User - Create a valid Admin user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Admin02">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="OMV01 Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="UnChecked">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1370" />
+    </classes>
+  </test>
+  <test name="GUI1371" preserve-order="true">
+    <parameter name="Title" value="GUI1371 - Admin - Manage Users - Create User - Create a valid Admin user with Suspend option enabled">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Admin03">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Checked">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1371" />
+    </classes>
+  </test>
+  <test name="GUI1372" preserve-order="true">
+    <parameter name="Title" value="GUI1372 - Admin - Manage Users - Create User - Create a valid Banker user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Hsbc01">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="HSBC Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="UnChecked">
+    </parameter>
+    <parameter name="Acb01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Acb01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Acb01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Acb01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Acb01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="Anz01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Anz01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Anz01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Anz01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Anz01']/Node[@Name='CompanyName']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1372" />
+    </classes>
+  </test>
+  <test name="GUI1373" preserve-order="true">
+    <parameter name="Title" value="GUI1373 - Admin - Manage Users - Create User - Create a valid Banker user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Hsbc02">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="HSBC Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Checked">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1373" />
+    </classes>
+  </test>
+  <test name="GUI1374" preserve-order="true">
+    <parameter name="Title" value="GUI1374 - Admin - Manage Users - Create User - Create a valid Modeler user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Cloudrisk01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Cloudrisk01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Cloudrisk01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Cloudrisk01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="UnChecked">
+    </parameter>
+    <parameter name="Jcra01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Jcra01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Jcra01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="Jcra01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Jcra01']/Node[@Name='CompanyName']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1374" />
+    </classes>
+  </test>
+  <test name="GUI1375" preserve-order="true">
+    <parameter name="Title" value="GUI1375 - Admin - Manage Users - Create User - Create a valid Modeler user with Suspend option disabled">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="Cloudrisk02">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Checked">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1375" />
+    </classes>
+  </test>
+  <test name="GUI1377" preserve-order="true">
+    <parameter name="Title" value="GUI1377 - Admin - Manage Users - Create User - Username for new added user should be shown in user table">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1377">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="oManageUser_UserList_Column" value="$ManageUser_UserList_Column">
+    </parameter>
+    <parameter name="sColumnNumber" value="4">
+    </parameter>
+    <parameter name="UserName" value="gui1377.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1377" />
+    </classes>
+  </test>
+  <test name="GUI1380" preserve-order="true">
+    <parameter name="Title" value="GUI1380 - Admin - Manage Users - Create User - Duplicated user">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1380">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="Time" value="5">
+    </parameter>
+    <parameter name="sPassword_New" value="R1;;winT1">
+    </parameter>
+    <parameter name="sCompany_New" value="HSBC Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb_New" value="Checked">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_ErrorMessage" value="$ManageUser_Create_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="errorMess" value="error creating user - Another object with the same value for property userPrincipalName already exists.">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_Ok_Btn" value="$ManageUser_Create_Dialog_Ok_Btn">
+    </parameter>
+    <parameter name="oManageUser_Create_Cancel_Btn" value="$ManageUser_Create_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1380" />
+    </classes>
+  </test>
+  <test name="GUI1381" preserve-order="true">
+    <parameter name="Title" value="GUI1381 - Admin - Manage Users - Create User - Required fields not filled">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Save_Btn" value="$ManageUser_Create_Save_Btn">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_ErrorMessage" value="$ManageUser_Create_Dialog_ErrorMessage">
+    </parameter>
+    <parameter name="errorMess" value="error creating user - Object reference not set to an instance of an object.">
+    </parameter>
+    <parameter name="oManageUser_Create_Dialog_Ok_Btn" value="$ManageUser_Create_Dialog_Ok_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1381" />
+    </classes>
+  </test>
+  <test name="GUI1383" preserve-order="true">
+    <parameter name="Title" value="GUI1383 - Admin - Manage Users - Create User - Created 50 users created">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sBaseFirstName" value="GUI1383">
+    </parameter>
+    <parameter name="sBaseLastName" value="Auto">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompName" value="OMV01 Auto">
+    </parameter>
+    <parameter name="sSuspendUser" value="Unchecked">
+    </parameter>
+    <parameter name="sNumUsers" value="50">
+    </parameter>
+    <parameter name="firstName_1" value="GUI13831">
+    </parameter>
+    <parameter name="lastname_1" value="Auto1">
+    </parameter>
+    <parameter name="firstName_25" value="GUI138325">
+    </parameter>
+    <parameter name="lastName_25" value="Auto25">
+    </parameter>
+    <parameter name="firstName_50" value="GUI138350">
+    </parameter>
+    <parameter name="lastName_50" value="Auto50">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1383" />
+    </classes>
+  </test>
+  <test name="GUI1400" preserve-order="true">
+    <parameter name="Title" value="GUI1400 - Admin - Manage Users - Edit User - Edit Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1400">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="username" value="gui1400.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="OManageUser_CreateUser_Dialog" value="$ManageUser_CreateUser_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1400" />
+    </classes>
+  </test>
+  <test name="GUI1403" preserve-order="true">
+    <parameter name="Title" value="GUI1403 - Admin - Manage Users - Edit User - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Admins_Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="oManageUser_Create_FirstName_Txt" value="$ManageUser_Create_FirstName_Txt">
+    </parameter>
+    <parameter name="sKeyTab" value="TAB">
+    </parameter>
+    <parameter name="oManageUser_Create_LastName_Txt" value="$ManageUser_Create_LastName_Txt">
+    </parameter>
+    <parameter name="oManageUser_Create_SuspendUser_Cb" value="$ManageUser_Create_SuspendUser_Cb">
+    </parameter>
+    <parameter name="oManageUser_Create_Cancel_Btn" value="$ManageUser_Create_Cancel_Btn">
+    </parameter>
+    <parameter name="oManageUser_Create_Save_Btn" value="$ManageUser_Create_Save_Btn">
+    </parameter>
+    <parameter name="sKeyShift" value="SHIFT">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1403" />
+    </classes>
+  </test>
+  <test name="GUI1405" preserve-order="true">
+    <parameter name="Title" value="GUI1405 - Admin - Manage Users - Edit User - Unable to access background windows until company creation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sImageName" value="Unable to access background_EditBtn.PNG">
+    </parameter>
+    <parameter name="oManageUser_CreateUser_Dialog" value="$ManageUser_CreateUser_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1405" />
+    </classes>
+  </test>
+  <test name="GUI1406" preserve-order="true">
+    <parameter name="Title" value="GUI1406 - Admin - Manage Users - Edit User - Edit page should contain valid data of selected user">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Admins_Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="oManageUser_Create_FirstName_Txt" value="$ManageUser_Create_FirstName_Txt">
+    </parameter>
+    <parameter name="Admin01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="oManageUser_Create_LastName_Txt" value="$ManageUser_Create_LastName_Txt">
+    </parameter>
+    <parameter name="Admin01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="oManageUser_Edit_Company_Txt" value="$ManageUser_Edit_Company_Txt">
+    </parameter>
+    <parameter name="Admin01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="oManageUser_Create_SuspendUser_Cb" value="$ManageUser_Create_SuspendUser_Cb">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1406" />
+    </classes>
+  </test>
+  <test name="GUI1415" preserve-order="true">
+    <parameter name="Title" value="GUI1415 - Admin - Manage Users - Edit User - First Name - Change to Valid">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFisrtName" value="GUI1415">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompName" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="suspendUser" value="Unchecked">
+    </parameter>
+    <parameter name="Time" value="4">
+    </parameter>
+    <parameter name="sUserName_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Mix" value="FirstName059!#$Change">
+    </parameter>
+    <parameter name="sLastName_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sPass_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sCompName_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="suspendUser_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sUserName_Mix_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Min" value="A">
+    </parameter>
+    <parameter name="sUserName_Min_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Upper" value="FIRSTNAME">
+    </parameter>
+    <parameter name="sUserName_Upper_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Lower" value="firstname">
+    </parameter>
+    <parameter name="sUserName_Lower_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Special" value="~!#$^-_'">
+    </parameter>
+    <parameter name="sUserName_Special_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Number" value="1234566789">
+    </parameter>
+    <parameter name="sUserName_Number_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_SingleQuotes" value="''Firstname'">
+    </parameter>
+    <parameter name="sUserName_SingleQuotes_Old" value="gui1415.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFisrtName_Max" value="50characterswithoutspaces50characterswithoutspaces">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1415" />
+    </classes>
+  </test>
+  <test name="GUI1419" preserve-order="true">
+    <parameter name="Title" value="GUI1419 - Admin - Manage Users - Edit User - Last Name - Change to Valid">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1419">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompName" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="suspendUser" value="Unchecked">
+    </parameter>
+    <parameter name="Time" value="4">
+    </parameter>
+    <parameter name="sUserName_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFirstName_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sLastName_Mix" value="LastName059!#$Change">
+    </parameter>
+    <parameter name="sPass_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sCompName_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="suspendUser_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sUserName_Mix_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_Min" value="A">
+    </parameter>
+    <parameter name="sUserName_Min_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_Upper" value="FIRSTNAME">
+    </parameter>
+    <parameter name="sUserName_Upper_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_Lower" value="firstname">
+    </parameter>
+    <parameter name="sUserName_Lower_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_Special" value="~!#$^-_'">
+    </parameter>
+    <parameter name="sUserName_Special_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_Number" value="1234566789">
+    </parameter>
+    <parameter name="sUserName_Number_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_SingleQuotes" value="''Firstname'">
+    </parameter>
+    <parameter name="sUserName_SingleQuotes_Old" value="gui1419.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sLastName_Max" value="50characterswithoutspaces50characterswithoutspaces">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1419" />
+    </classes>
+  </test>
+  <test name="GUI1446" preserve-order="true">
+    <parameter name="Title" value="GUI1446 - Admin - Manage Users - Edit User - Unsuspend a user">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1446">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser" value="Checked">
+    </parameter>
+    <parameter name="sUserNameOld" value="gui1446.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sFirstName_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sLastName_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sPass_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="sCompany_unchanged" value="unchanged">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sIE" value="InternetExplorerDriver">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1446" />
+    </classes>
+  </test>
+  <test name="GUI1472" preserve-order="true">
+    <parameter name="Title" value="GUI1472 - Admin - Manage Users - User  Table - Table Details">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="oManageUser_UserList_THeader" value="$ManageUser_UserList_THeader">
+    </parameter>
+    <parameter name="sCell1" value="Name">
+    </parameter>
+    <parameter name="sCell2" value="Company">
+    </parameter>
+    <parameter name="sCell3" value="Role">
+    </parameter>
+    <parameter name="sCell4" value="Username">
+    </parameter>
+    <parameter name="sCell5" value="Created">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1472" />
+    </classes>
+  </test>
+  <test name="GUI1485" preserve-order="true">
+    <parameter name="Title" value="GUI1485 - Admin - Manage Users - User  Table - User data should be shown properly for Admin">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Admin01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Admin01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Admin01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="sCompRole" value="Admin">
+    </parameter>
+    <parameter name="Admins_Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1485" />
+    </classes>
+  </test>
+  <test name="GUI1486" preserve-order="true">
+    <parameter name="Title" value="GUI1486 - Admin - Manage Users - User  Table - User data should be shown properly for banker">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Hsbc01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Hsbc01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Hsbc01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="sCompRole" value="Banker">
+    </parameter>
+    <parameter name="Hsbc01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Bankers']/Node[@Name='Hsbc01']/Node[@Name='Username']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1486" />
+    </classes>
+  </test>
+  <test name="GUI1487" preserve-order="true">
+    <parameter name="Title" value="GUI1487 - Admin - Manage Users - User  Table - User data should be shown properly for Model">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="Cloudrisk01_Firstname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Firstname']">
+    </parameter>
+    <parameter name="Cloudrisk01_Lastname" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Lastname']">
+    </parameter>
+    <parameter name="Cloudrisk01_CompanyName" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='CompanyName']">
+    </parameter>
+    <parameter name="sCompRole" value="Modeler">
+    </parameter>
+    <parameter name="Cloudrisk01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Modelers']/Node[@Name='Cloudrisk01']/Node[@Name='Username']">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1487" />
+    </classes>
+  </test>
+  <test name="GUI1501" preserve-order="true">
+    <parameter name="Title" value="GUI1501 - Admin - Manage Users - Delete User - Unable to access background windows until user confirmation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1501">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="username" value="gui1501.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sImageName" value="GUI1501_DeleteBtn.PNG">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog" value="$ManageUser_UserList_Delete_Dialog">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog_Confirm_Btn" value="$ManageUser_UserList_Delete_Dialog_Confirm_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1501" />
+    </classes>
+  </test>
+  <test name="GUI1502" preserve-order="true">
+    <parameter name="Title" value="GUI1502 - Admin - Manage Users - Delete User - Delete button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1502">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="username" value="gui1502.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog" value="$ManageUser_UserList_Delete_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1502" />
+    </classes>
+  </test>
+  <test name="GUI1503" preserve-order="true">
+    <parameter name="Title" value="GUI1503 - Admin - Manage Users - Delete User - Confirm dialog - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1503">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sUserName" value="gui1503.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog_Cancel_Btn" value="$ManageUser_UserList_Delete_Dialog_Cancel_Btn">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog_Confirm_Btn" value="$ManageUser_UserList_Delete_Dialog_Confirm_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1503" />
+    </classes>
+  </test>
+  <test name="GUI1504" preserve-order="true">
+    <parameter name="Title" value="GUI1504 - Admin - Manage Users - Delete User - Delete Confirm message - Confirm Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1504">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1504" />
+    </classes>
+  </test>
+  <test name="GUI1505" preserve-order="true">
+    <parameter name="Title" value="GUI1505 - Admin - Manage Users - Delete User - Delete Confirm message - Cancel Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1505">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="username" value="gui1505.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog_Cancel_Btn" value="$ManageUser_UserList_Delete_Dialog_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1505" />
+    </classes>
+  </test>
+  <test name="GUI1506" preserve-order="true">
+    <parameter name="Title" value="GUI1506 - Admin - Manage Users - Delete User - Delete User with no dependency">
+    </parameter>
+    <parameter name="browser" value="FirefoxDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1506">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1506" />
+    </classes>
+  </test>
+  <test name="GUI1519" preserve-order="true">
+    <parameter name="Title" value="GUI1519 - Admin - Manage Users - Delete User - Delete all types of users">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName_Admin" value="GUI1519">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany_Admin" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1519">
+    </parameter>
+    <parameter name="sFirstName_Banker" value="GUI1519">
+    </parameter>
+    <parameter name="sCompany_Banker" value="HSBC Auto">
+    </parameter>
+    <parameter name="sFirstName_Modeler" value="GUI1519">
+    </parameter>
+    <parameter name="sCompany_Modeler" value="CloudRisk Auto">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1519" />
+    </classes>
+  </test>
+  <test name="GUI1520" preserve-order="true">
+    <parameter name="Title" value="GUI1520 - Admin - Manage Users - Delete User - Delete a logged-in admin">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1520">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="OMV01 Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sIE" value="InternetExplorerDriver">
+    </parameter>
+    <parameter name="sUsername" value="gui1520.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oManageUser_Create_Link" value="$ManageUser_Create_Link">
+    </parameter>
+    <parameter name="oManageUser_Create_Save_Btn" value="$ManageUser_Create_Save_Btn">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1520" />
+    </classes>
+  </test>
+  <test name="GUI1521" preserve-order="true">
+    <parameter name="Title" value="GUI1521 - Admin - Manage Users - Delete User - Delete a logged-in banker">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1521">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="HSBC Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sIE" value="InternetExplorerDriver">
+    </parameter>
+    <parameter name="sUsername" value="gui1521.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBankers_Link" value="$Bankers_Link">
+    </parameter>
+    <parameter name="oBanker_MainPage_CreateMaster_Link" value="$Banker_MainPage_CreateMaster_Link">
+    </parameter>
+    <parameter name="oBanker_CreateMaster_Submit_Btn" value="$Banker_CreateMaster_Submit_Btn">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1521" />
+    </classes>
+  </test>
+  <test name="GUI1522" preserve-order="true">
+    <parameter name="Title" value="GUI1522 - Admin - Manage Users - Delete User - Delete a logged-in modeler">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Websites_URL" value="/Node[@Name='TestBed']/Node[@Name='Websites']/Node[@Name='URL']">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="Admin01_Username" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Username']">
+    </parameter>
+    <parameter name="Admin01_Password" value="/Node[@Name='TestBed']/Node[@Name='Users']/Node[@Name='Admins']/Node[@Name='Admin01']/Node[@Name='Password']">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1522">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sPass" value="R1;;winT">
+    </parameter>
+    <parameter name="sCompany" value="JCRA Auto">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="Unchecked">
+    </parameter>
+    <parameter name="sIE" value="InternetExplorerDriver">
+    </parameter>
+    <parameter name="sUsername" value="gui1522.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oModelers_Link" value="$Modelers_Link">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1522" />
+    </classes>
+  </test>
+  <test name="GUI1525" preserve-order="true">
+    <parameter name="Title" value="GUI1525 - Admin - Manage Users - Delete User - Re-create the deleted user with same info">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1525">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1525" />
+    </classes>
+  </test>
+  <test name="GUI1529" preserve-order="true">
+    <parameter name="Title" value="GUI1529 - Admin - Manage Users - Delete User - Cancel user delete">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="url" value="$Url">
+    </parameter>
+    <parameter name="sObjectUserName" value="$LoginName">
+    </parameter>
+    <parameter name="sObjectPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="BtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="Admins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="sFirstName" value="GUI1529">
+    </parameter>
+    <parameter name="sLastName" value="Auto">
+    </parameter>
+    <parameter name="sCompany" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="SuspendUser_Cb" value="0">
+    </parameter>
+    <parameter name="Time" value="3">
+    </parameter>
+    <parameter name="username" value="gui1529.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="oManageUser_UserList_Delete_Dialog_Cancel_Btn" value="$ManageUser_UserList_Delete_Dialog_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1529" />
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,1339 @@
+<suite name="manageCompanies">
+  <listeners>
+    <listener class-name="testng.TestNGCustom" />
+  </listeners>
+  <test name="GUI0001" preserve-order="true">
+    <parameter name="Title" value="GUI0001 - General  - HTTPS enforced - Redirected to HTTPS">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="sProtocol" value="https">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="wait" value="2">
+    </parameter>
+    <parameter name="ManageCompanyURL" value="http://qa-omv.sixsolutions.us/Admin/Companies">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI0001" />
+    </classes>
+  </test>
+  <test name="GUI0005" preserve-order="true">
+    <parameter name="Title" value="GUI0005 - General  - Unauthenticated user - Always redirected to the login page if not logged in">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="HomePageURL" value="https://qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="expected" value="login">
+    </parameter>
+    <parameter name="AdminMainPage" value="https://qa-omv.sixsolutions.us/Admin">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI0005" />
+    </classes>
+  </test>
+  <test name="GUI0010" preserve-order="true">
+    <parameter name="Title" value="GUI0010 - General  - Authenticated user - Logos and colors should be same as the omvco.com website">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="OMV_Logo" value="OMV_Logo.PNG">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI0010" />
+    </classes>
+  </test>
+  <test name="GUI1020" preserve-order="true">
+    <parameter name="Title" value="GUI1020 - Admin - Main Page - Branding Check">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="OMV_Logo" value="OMV_Logo.PNG">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1020" />
+    </classes>
+  </test>
+  <test name="GUI1021" preserve-order="true">
+    <parameter name="Title" value="GUI1021 - Admin - Main Page - Title and Description Check">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="pageTitle" value="Sub-Portfolios | Open Models Valuation Platform | The Open Models Valuation Company">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Description_txt" value="$Admin_ManageCompanies_Description_txt">
+    </parameter>
+    <parameter name="sDesc" value="SUB-PORTFOLIOS">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1021" />
+    </classes>
+  </test>
+  <test name="GUI1023" preserve-order="true">
+    <parameter name="Title" value="GUI1023 - Admin - Main Page - User and Company Info Check">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oUserInfo_Txt" value="$UserInfo_Txt">
+    </parameter>
+    <parameter name="sUserInfo" value="Welcome, Admin01 Auto">
+    </parameter>
+    <parameter name="oCompanyInfo_Txt" value="$CompanyInfo_Txt">
+    </parameter>
+    <parameter name="sCompInfo" value="The Open Models Valuation Company">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1023" />
+    </classes>
+  </test>
+  <test name="GUI1029" preserve-order="true">
+    <parameter name="Title" value="GUI1029 - Admin - Main Page - Manage Companies link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Description_txt" value="$Admin_ManageCompanies_Description_txt">
+    </parameter>
+    <parameter name="sDesc" value="MANAGE COMPANIES">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1029" />
+    </classes>
+  </test>
+  <test name="GUI1030" preserve-order="true">
+    <parameter name="Title" value="GUI1030 - Admin - Main Page - Manage Users link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageUser_Link" value="$ManageUser_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Description_txt" value="$ManageUser_Description_txt">
+    </parameter>
+    <parameter name="sDesc" value="MANAGE USERS">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$ManageUser_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1030" />
+    </classes>
+  </test>
+  <test name="GUI1031" preserve-order="true">
+    <parameter name="Title" value="GUI1031 - Admin - Main Page - Manage Templates link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageTemplates_Link" value="$Admin_ManageTemplates_Link">
+    </parameter>
+    <parameter name="$Admin_ManageTemplates_Description_txt" value="$Admin_ManageTemplates_Description_txt">
+    </parameter>
+    <parameter name="sDesc" value="MANAGE TEMPLATES">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1031" />
+    </classes>
+  </test>
+  <test name="GUI1040" preserve-order="true">
+    <parameter name="Title" value="GUI1040 - Admin - Main Page - Description Check">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oAdmin_Description_txt" value="$Admin_ManageCompanies_Description_txt">
+    </parameter>
+    <parameter name="sExpectedTxt" value="MANAGE COMPANIES">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1040" />
+    </classes>
+  </test>
+  <test name="GUI1041" preserve-order="true">
+    <parameter name="Title" value="GUI1041 - Admin - Manage Companies - Main page - Page Title">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="AdminLinks" value="$Admins_Link">
+    </parameter>
+    <parameter name="ManageCompaniesLink" value="$ManageCompany_Link">
+    </parameter>
+    <parameter name="sExpectedTitle" value="Companies | Open Models Valuation Platform | The Open Models Valuation Company">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1041" />
+    </classes>
+  </test>
+  <test name="GUI1045" preserve-order="true">
+    <parameter name="Title" value="GUI1045 - Admin - Manage Companies - Main page - Create Company Link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_Link" value="$ManageComp_Create_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_Description_Txt" value="$ManageComp_Create_Description_Txt">
+    </parameter>
+    <parameter name="sDesc" value="CREATE COMPANY">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1045" />
+    </classes>
+  </test>
+  <test name="GUI1050" preserve-order="true">
+    <parameter name="Title" value="GUI1050 - Admin - Manage Companies - Create Company - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_Link" value="$ManageComp_Create_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_CompanyName_Txt" value="$ManageComp_Create_CompanyName_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1050" />
+    </classes>
+  </test>
+  <test name="GUI1065" preserve-order="true">
+    <parameter name="Title" value="GUI1065 - Admin - Manage Companies - Create Company - Company Type - Default Selection">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_Link" value="$ManageComp_Create_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_CompanyType_Dd" value="$ManageComp_Create_CompanyType_Dd">
+    </parameter>
+    <parameter name="sExpectedLabel" value="">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1065" />
+    </classes>
+  </test>
+  <test name="GUI1072" preserve-order="true">
+    <parameter name="Title" value="GUI1072 - Admin - Manage Companies - Create Company - Code - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1072">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCodeMix" value="An0">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Tb" value="$ManageComp_CompList_Tb">
+    </parameter>
+    <parameter name="sCodeStartingNumber" value="5Nz">
+    </parameter>
+    <parameter name="sCodeUpper" value="ANZ">
+    </parameter>
+    <parameter name="sCodeLower" value="anz">
+    </parameter>
+    <parameter name="sCodeNum" value="059">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1072" />
+    </classes>
+  </test>
+  <test name="GUI1073" preserve-order="true">
+    <parameter name="Title" value="GUI1073 - Admin - Manage Companies - Create Company - Code - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1073">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCodeLeadingSpace" value=" A1A">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Tb" value="$ManageComp_CompList_Tb">
+    </parameter>
+    <parameter name="sCodeSpace" value="A1A">
+    </parameter>
+    <parameter name="oManageComp_Create_Code_Txt" value="$ManageComp_Create_Code_Txt">
+    </parameter>
+    <parameter name="sCodeNoSpace" value="A1A">
+    </parameter>
+    <parameter name="oManageComp_Create_Save_Btn" value="$ManageComp_Create_Save_Btn">
+    </parameter>
+    <parameter name="sCodeTrailingSpace" value="A1A ">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1073" />
+    </classes>
+  </test>
+  <test name="GUI1074" preserve-order="true">
+    <parameter name="Title" value="GUI1074 - Admin - Manage Companies - Create Company - Code - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1074">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCodeEmpty" value="">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_Create_Error_Message_Txt" value="$ManageComp_Create_Error_Message_Txt">
+    </parameter>
+    <parameter name="sMessage" value="Company create failed.">
+    </parameter>
+    <parameter name="oManageComp_Create_Error_OK_Btn" value="$ManageComp_Create_Error_OK_Btn">
+    </parameter>
+    <parameter name="oManageComp_Create_Code_Txt" value="$ManageComp_Create_Code_Txt">
+    </parameter>
+    <parameter name="sCodeMin_1" value="AN">
+    </parameter>
+    <parameter name="oManageComp_Create_Save_Btn" value="$ManageComp_Create_Save_Btn">
+    </parameter>
+    <parameter name="sCodeMaxPlus1" value="ANZ01">
+    </parameter>
+    <parameter name="sCodeSpecial" value="~!$">
+    </parameter>
+    <parameter name="sCodeUnicode" value="あいう">
+    </parameter>
+    <parameter name="oManageComp_Create_Cancel_Btn" value="$ManageComp_Create_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1074" />
+    </classes>
+  </test>
+  <test name="GUI1080" preserve-order="true">
+    <parameter name="Title" value="GUI1080 - Admin - Manage Companies - Create Company - Email Address - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1080">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCode" value="ANZ">
+    </parameter>
+    <parameter name="sCompMail1" value="email@domain.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Tb" value="$ManageComp_CompList_Tb">
+    </parameter>
+    <parameter name="sCompMail2" value="firstname.lastname@domain.com">
+    </parameter>
+    <parameter name="sCompMail3" value="email@subdomain.domain.com">
+    </parameter>
+    <parameter name="sCompMail4" value="firstname+lastname@domain.com">
+    </parameter>
+    <parameter name="sCompMail5" value="email@123.123.123.123">
+    </parameter>
+    <parameter name="sCompMail6" value="email@[123.123.123.123]">
+    </parameter>
+    <parameter name="sCompMail7" value="1234567890@domain.com">
+    </parameter>
+    <parameter name="sCompMail8" value="email@domain-one.com">
+    </parameter>
+    <parameter name="sCompMail9" value="_______@domain.com">
+    </parameter>
+    <parameter name="sCompMail10" value="firstname-lastname@domain.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1080" />
+    </classes>
+  </test>
+  <test name="GUI1081" preserve-order="true">
+    <parameter name="Title" value="GUI1081 - Admin - Manage Companies - Create Company - Email Adress - Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1081">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCode" value="ANZ">
+    </parameter>
+    <parameter name="sCompEmailLeadingSpace" value="   omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Tb" value="$ManageComp_CompList_Tb">
+    </parameter>
+    <parameter name="sCompEmailNoSpace" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_Create_EmailAddress_Txt" value="$ManageComp_Create_EmailAddress_Txt">
+    </parameter>
+    <parameter name="oManageComp_Create_Save_Btn" value="$ManageComp_Create_Save_Btn">
+    </parameter>
+    <parameter name="sCompEmailTrailingSpaces" value="omv.notifications@anz.com   ">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1081" />
+    </classes>
+  </test>
+  <test name="GUI1082" preserve-order="true">
+    <parameter name="Title" value="GUI1082 - Admin - Manage Companies - Create Company - Email Address - Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1082">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCode" value="ANZ">
+    </parameter>
+    <parameter name="sCompMail_empty" value="">
+    </parameter>
+    <parameter name="oManageComp_Create_Error_Message_Txt" value="$ManageComp_Create_Error_Message_Txt">
+    </parameter>
+    <parameter name="sMessage" value="Company create failed.">
+    </parameter>
+    <parameter name="oManageComp_Create_Error_OK_Btn" value="$ManageComp_Create_Error_OK_Btn">
+    </parameter>
+    <parameter name="oManageComp_Create_EmailAddress_Txt" value="$ManageComp_Create_EmailAddress_Txt">
+    </parameter>
+    <parameter name="sCompMail_plaintext" value="plainaddress">
+    </parameter>
+    <parameter name="oManageComp_Create_Save_Btn" value="$ManageComp_Create_Save_Btn">
+    </parameter>
+    <parameter name="sCompMail_Garbarge" value="#@%^%#$@#$@#.com">
+    </parameter>
+    <parameter name="sCompMail_NoName" value="@domain.com">
+    </parameter>
+    <parameter name="sCompMail_noAt" value="email.domain.com">
+    </parameter>
+    <parameter name="sCompMail_2At" value="email@domain@domain.com">
+    </parameter>
+    <parameter name="sCompMail_startingDot" value=".email@domain.com">
+    </parameter>
+    <parameter name="sCompMail_endingDot" value="email.@domain.com">
+    </parameter>
+    <parameter name="sCompMail_2Dot" value="email..email@domain.com">
+    </parameter>
+    <parameter name="sCompMail_noSubDomain" value="email@domain">
+    </parameter>
+    <parameter name="sCompMail_atDash" value="email@-domain.com">
+    </parameter>
+    <parameter name="sCompMail_invalidIP" value="email@111.222.333.44444">
+    </parameter>
+    <parameter name="sCompMail_at2Dashes" value="email@domain..com">
+    </parameter>
+    <parameter name="oManageComp_Create_Cancel_Btn" value="$ManageComp_Create_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1082" />
+    </classes>
+  </test>
+  <test name="GUI1100" preserve-order="true">
+    <parameter name="Title" value="GUI1100 - Admin - Manage Companies - Create Company - Create a valid  Bank company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompNameHSBC" value="HSBC Auto">
+    </parameter>
+    <parameter name="sCompType" value="Bank">
+    </parameter>
+    <parameter name="sCodeHSBC" value="HSB">
+    </parameter>
+    <parameter name="sCompMailHSBC" value="omv.notifications@hsbc.com">
+    </parameter>
+    <parameter name="sCompName" value="HSBC Auto">
+    </parameter>
+    <parameter name="sCompNameACB" value="ACB Auto">
+    </parameter>
+    <parameter name="sCodeACB" value="ACB">
+    </parameter>
+    <parameter name="sCompMailACB" value="omv.notifications@acb.com.vn">
+    </parameter>
+    <parameter name="sCompNameANZ" value="ANZ Auto">
+    </parameter>
+    <parameter name="sCodeANZ" value="ANZ">
+    </parameter>
+    <parameter name="sCompMailANZ" value="omv.notifications@anz.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1100" />
+    </classes>
+  </test>
+  <test name="GUI1101" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Companies - Create Company - Create a valid  Modeling Firm company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sFirstCompName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sCompType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCode" value="MDF">
+    </parameter>
+    <parameter name="sFirstCompMail" value="omv.notifications@cloudrisk.com">
+    </parameter>
+    <parameter name="sCompName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sSecondCompName" value="JCRA Auto">
+    </parameter>
+    <parameter name="sSecondCompMail" value="omv.notifications@jcra.com">
+    </parameter>
+    <parameter name="sThirdCompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="sThirdCompMail" value="omv.notifications@prytaniagroup.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1101" />
+    </classes>
+  </test>
+  <test name="GUI1102" preserve-order="true">
+    <parameter name="Title" value="GUI1102 - Admin - Manage Companies - Create Company - Create a valid  OMV company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="OMV01 Auto">
+    </parameter>
+    <parameter name="sCompType" value="The Open Models Valuation Company">
+    </parameter>
+    <parameter name="sCode" value="OMV">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@omv01auto.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1102" />
+    </classes>
+  </test>
+  <test name="GUI1116" preserve-order="true">
+    <parameter name="Title" value="GUI1116 - Admin - Manage Companies - Create Company - Required fields not filled">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="">
+    </parameter>
+    <parameter name="sCompType" value="">
+    </parameter>
+    <parameter name="sCode" value="HSB">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@hsbc.com">
+    </parameter>
+    <parameter name="oManageComp_Create_Error_Message_Txt" value="$ManageComp_Create_Error_Message_Txt">
+    </parameter>
+    <parameter name="sErrMessage" value="Company create failed.">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1116" />
+    </classes>
+  </test>
+  <test name="GUI1117" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Companies - Create Company - Create a valid  Modeling Firm company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="199characterswithspaces 199characterswith spaces 199characterswith spaces  199characterswith spaces 199characterswithspaces 199characterswith spaces 199characterswith spaces  199characterswith spaces9">
+    </parameter>
+    <parameter name="sCompType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCode" value="">
+    </parameter>
+    <parameter name="sCompMail" value="longemailaddresslongemas@cloudrisk.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1117" />
+    </classes>
+  </test>
+  <test name="GUI1132" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Companies - Edit Company - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_CompList_FirstEditIcon_Btn" value="$ManageComp_CompList_FirstEditIcon_Btn">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_CompanyName_Txt" value="$ManageComp_CompList_Edit_CompanyName_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1132" />
+    </classes>
+  </test>
+  <test name="GUI1133" preserve-order="true">
+    <parameter name="Title" value="GUI1133 - Admin - Manage Companies - Edit Company - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_CompList_FirstEditIcon_Btn" value="$ManageComp_CompList_FirstEditIcon_Btn">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_CompanyName_Txt" value="$ManageComp_CompList_Edit_CompanyName_Txt">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_EmailAddress_Txt" value="$ManageComp_CompList_Edit_EmailAddress_Txt">
+    </parameter>
+    <parameter name="sNumberPress" value="2">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_Save_Btn" value="$ManageComp_CompList_Edit_Save_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1133" />
+    </classes>
+  </test>
+  <test name="GUI1135" preserve-order="true">
+    <parameter name="Title" value="Admin - Manage Companies - Edit Company - Unable to access background windows until company creation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_CompList_FirstEditIcon_Btn" value="$ManageComp_CompList_FirstEditIcon_Btn">
+    </parameter>
+    <parameter name="oImageCreateCompany" value="Unable to access background_EditBtn.PNG">
+    </parameter>
+    <parameter name="oManageComp_CompList_EditForm_Form" value="$ManageComp_CompList_EditForm_Form">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1135" />
+    </classes>
+  </test>
+  <test name="GUI1136" preserve-order="true">
+    <parameter name="Title" value="GUI1136 - Admin - Manage Companies - Edit Company - Edit page should contain valid data of the selected company">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="CompanyName" value="HSBC Auto">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_CompanyName_Txt" value="$ManageComp_CompList_Edit_CompanyName_Txt">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_CompanyType_Dd" value="$ManageComp_CompList_Edit_CompanyType_Span">
+    </parameter>
+    <parameter name="CompanyType" value="Bank">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_Code_Txt" value="$ManageComp_CompList_Edit_Code_Txt">
+    </parameter>
+    <parameter name="CompanyCode" value="HSB">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_EmailAddress_Txt" value="$ManageComp_CompList_Edit_EmailAddress_Txt">
+    </parameter>
+    <parameter name="CompanyEmailAddress" value="omv.notifications@hsbc.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1136" />
+    </classes>
+  </test>
+  <test name="GUI1151" preserve-order="true">
+    <parameter name="Title" value="GUI1151 - Admin - Manage Companies - Edit Company - Code - Change to Invalid and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1151">
+    </parameter>
+    <parameter name="sCompTypeInit" value="Bank">
+    </parameter>
+    <parameter name="sCompCode" value="ANZ">
+    </parameter>
+    <parameter name="sCompEmail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="sCompType" value="unchanged">
+    </parameter>
+    <parameter name="sCodeEmpty" value="">
+    </parameter>
+    <parameter name="sCompMail" value="unchanged">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_ErrorDialog_Modal" value="$ManageComp_CompList_Edit_ErrorDialog_Modal">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_ErrorDialog_Message_Txt" value="$ManageComp_CompList_Edit_ErrorDialog_Message_Txt">
+    </parameter>
+    <parameter name="sErrorMessage" value="Company update failed.">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_ErrorDialog_OkButton_Btn" value="$ManageComp_CompList_Edit_ErrorDialog_OkButton_Btn">
+    </parameter>
+    <parameter name="oManageComp_URL" value="$ManageComp_URL">
+    </parameter>
+    <parameter name="sCodeMaxAddOne" value="ANZ1">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1151" />
+    </classes>
+  </test>
+  <test name="GUI1158" preserve-order="true">
+    <parameter name="Title" value="GUI1158 - Admin - Manage Companies - Edit Company - Email Address - Change to Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1158">
+    </parameter>
+    <parameter name="sCompTypeInit" value="Bank">
+    </parameter>
+    <parameter name="sCompCode" value="ANZ">
+    </parameter>
+    <parameter name="sCompEmail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="sCompType" value="unchanged">
+    </parameter>
+    <parameter name="sCode" value="unchanged">
+    </parameter>
+    <parameter name="sCompMailOne" value="email@domain.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Tb" value="$ManageComp_CompList_Tb">
+    </parameter>
+    <parameter name="sCompMailTwo" value="firstname.lastname@domain.com">
+    </parameter>
+    <parameter name="sCompMailThree" value="email@subdomain.domain.com">
+    </parameter>
+    <parameter name="sCompMailFour" value="firstname+lastname@domain.com">
+    </parameter>
+    <parameter name="sCompMailFive" value="email@123.123.123.123">
+    </parameter>
+    <parameter name="sCompMailSix" value="email@[123.123.123.123]">
+    </parameter>
+    <parameter name="sCompMailSeven" value="1234567890@domain.com">
+    </parameter>
+    <parameter name="sCompMailEight" value="email@domain-one.com">
+    </parameter>
+    <parameter name="sCompMailNine" value=" _______@domain.com">
+    </parameter>
+    <parameter name="sCompMailTen" value="email@domain.name">
+    </parameter>
+    <parameter name="sCompMailEleven" value="email@domain.co.jp">
+    </parameter>
+    <parameter name="sCompMailTwelve" value="firstname-lastname@domain.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1158" />
+    </classes>
+  </test>
+  <test name="GUI1166" preserve-order="true">
+    <parameter name="Title" value="GUI1166 - Admin - Manage Companies - Edit Company - Save Button -  With and without data changed">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1166">
+    </parameter>
+    <parameter name="sCompanyType" value="Bank">
+    </parameter>
+    <parameter name="sComanyCode" value="GUI">
+    </parameter>
+    <parameter name="sCompanyMail" value="omv.notifications@gui1166.com">
+    </parameter>
+    <parameter name="sCompanyNameNew" value="GUI1166 Auto">
+    </parameter>
+    <parameter name="sCompanyTypeNew" value="unchanged">
+    </parameter>
+    <parameter name="sCompanyCodeNew" value="gui">
+    </parameter>
+    <parameter name="sCompanyMailNew" value="omv.notifications@gui1166auto.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_CompanyName_Txt" value="$ManageComp_CompList_Edit_CompanyName_Txt">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_Code_Txt" value="$ManageComp_CompList_Edit_Code_Txt">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_EmailAddress_Txt" value="$ManageComp_CompList_Edit_EmailAddress_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1166" />
+    </classes>
+  </test>
+  <test name="GUI1168" preserve-order="true">
+    <parameter name="Title" value="GUI1168 - Admin - Manage Companies - Edit Company - Cancel Button - With and without data changed">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="LoginURL" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1168">
+    </parameter>
+    <parameter name="sCompTypeInit" value="Bank">
+    </parameter>
+    <parameter name="sCompCode" value="anz">
+    </parameter>
+    <parameter name="sCompEmail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_Cancel_Btn" value="$ManageComp_CompList_Edit_Cancel_Btn">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_CompanyName_Txt" value="$ManageComp_CompList_Edit_CompanyName_Txt">
+    </parameter>
+    <parameter name="sNewCompName" value="GUI1168New">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_Code_Txt" value="$ManageComp_CompList_Edit_Code_Txt">
+    </parameter>
+    <parameter name="oManageComp_CompList_Edit_EmailAddress_Txt" value="$ManageComp_CompList_Edit_EmailAddress_Txt">
+    </parameter>
+    <parameter name="sCompMail" value="omv.notifications@anz01new.com">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1168" />
+    </classes>
+  </test>
+  <test name="GUI1190" preserve-order="true">
+    <parameter name="Title" value="GUI1190 - Admin - Manage Companies - Company  Table - Table  Details">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="oManageComp_Create_TableHeader" value="$ManageComp_CompList_TableHeader">
+    </parameter>
+    <parameter name="sName" value="Name">
+    </parameter>
+    <parameter name="sType" value="Type">
+    </parameter>
+    <parameter name="sCode" value="Code">
+    </parameter>
+    <parameter name="sEmail" value="Email">
+    </parameter>
+    <parameter name="sCreated" value="Created">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1190" />
+    </classes>
+  </test>
+  <test name="GUI1226" preserve-order="true">
+    <parameter name="Title" value="GUI1226 - Admin - Manage Companies - Delete Company - Delete button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1226">
+    </parameter>
+    <parameter name="sCompTypeInit" value="Bank">
+    </parameter>
+    <parameter name="sCompCode" value="GUI">
+    </parameter>
+    <parameter name="sCompEmail" value="omv.notifications@gui1226.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_ComfirmDialog_Dialog" value="$ManageComp_CompList_ComfirmDialog_Dialog">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1226" />
+    </classes>
+  </test>
+  <test name="GUI1227" preserve-order="true">
+    <parameter name="Title" value="GUI1227 - Admin - Manage Companies - Delete Company - Confirm dialog - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oUserName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sUserName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompName" value="GUI1227">
+    </parameter>
+    <parameter name="sCompTypeInit" value="Bank">
+    </parameter>
+    <parameter name="sCompCode" value="ANZ">
+    </parameter>
+    <parameter name="sCompEmail" value="omv.notifications@anz.com">
+    </parameter>
+    <parameter name="oManageComp_CompList_ComfirmDialog_CancelButton_Btn" value="$ManageComp_CompList_ComfirmDialog_CancelButton_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1227" />
+    </classes>
+  </test>
+</suite>

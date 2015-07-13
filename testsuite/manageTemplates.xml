@@ -1,0 +1,1459 @@
+<suite name="manageTemplates">
+  <listeners>
+    <listener class-name="testng.TestNGCustom" />
+  </listeners>
+  <test name="GUI1600" preserve-order="true">
+    <parameter name="Title" value="">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="ExpectedTitle" value="Templates | Open Models Valuation Platform | The Open Models Valuation Company">
+    </parameter>
+    <parameter name="oManageTemp_Description_Txt" value="$ManageTemp_Description_Txt">
+    </parameter>
+    <parameter name="ExpectedDescription" value="MANAGE TEMPLATES">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1600" />
+    </classes>
+  </test>
+  <test name="GUI1602" preserve-order="true">
+    <parameter name="Title" value="GUI1602 - Admin - Manage Templates - Main page - Navigation by Tab/Shift Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_Logo" value="$ManageTemp_Logo">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="NumberPress1" value="3">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="NumberPress2" value="4">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1602" />
+    </classes>
+  </test>
+  <test name="GUI1608" preserve-order="true">
+    <parameter name="Title" value="GUI1608 - Admin - Manage Templates - Main page - Upload New Template Link">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="sCompany" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Link" value="$ManageTemp_SelectACompany_UploadNewTemplate_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Modal" value="$ManageTemp_SelectACompany_UploadNewTemplate_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1608" />
+    </classes>
+  </test>
+  <test name="GUI1609" preserve-order="true">
+    <parameter name="Title" value="GUI1609 - Admin - Manage Templates - Main page - Select a Company - Default selection">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="ExpectedValue" value="Select a Company">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1609" />
+    </classes>
+  </test>
+  <test name="GUI1612" preserve-order="true">
+    <parameter name="Title" value="GUI1612 - Admin - Manage Templates - Main page - Select a Company - Mouse actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="sModelingFirm" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Link" value="$ManageTemp_SelectACompany_UploadNewTemplate_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1612" />
+    </classes>
+  </test>
+  <test name="GUI1625" preserve-order="true">
+    <parameter name="Title" value="GUI1625 - Admin - Manage Templates - Create Template - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Link" value="$ManageTemp_SelectACompany_UploadNewTemplate_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_AssetClass_Txt" value="$ManageTemp_SelectACompany_UploadNewTemplate_AssetClass_Txt">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1625" />
+    </classes>
+  </test>
+  <test name="GUI1627" preserve-order="true">
+    <parameter name="Title" value="GUI1627 - Admin - Manage Templates - Create Template - Navigation by Shift + Tab">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Link" value="$ManageTemp_SelectACompany_UploadNewTemplate_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_AssetClass_Txt" value="$ManageTemp_SelectACompany_UploadNewTemplate_AssetClass_Txt">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_UploadTemplate_Btn" value="$ManageTemp_SelectACompany_UploadNewTemplate_UploadTemplate_Btn">
+    </parameter>
+    <parameter name="NumberPress" value="2">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Upload_Btn" value="$ManageTemp_SelectACompany_UploadNewTemplate_Upload_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1627" />
+    </classes>
+  </test>
+  <test name="GUI1628" preserve-order="true">
+    <parameter name="Title" value="GUI1628 - Admin - Manage Templates - Create Template - Unable to access background windows until user creation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="sModelingFirm" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Link" value="$ManageTemp_SelectACompany_UploadNewTemplate_Link">
+    </parameter>
+    <parameter name="sImageName" value="OMV_Logo.PNG">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Modal" value="$ManageTemp_SelectACompany_UploadNewTemplate_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1628" />
+    </classes>
+  </test>
+  <test name="GUI1631" preserve-order="true">
+    <parameter name="Title" value="GUI1631 - Admin - Manage Templates - Create Template - Asset Class - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClassMix" value="Student Loan 059">
+    </parameter>
+    <parameter name="Geography" value="VietNam">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="AssetClassUpper" value="STUDENT LOAN">
+    </parameter>
+    <parameter name="AssetClassLower" value="student loan">
+    </parameter>
+    <parameter name="AssetClassNumber" value="123456789">
+    </parameter>
+    <parameter name="AssetClassWhiteSpace" value="    ">
+    </parameter>
+    <parameter name="AssetClassMin" value="A">
+    </parameter>
+    <parameter name="AssetClassMax" value="100characters 100characters 100characters 100characters 100characters 100characters 100characters 10">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1631" />
+    </classes>
+  </test>
+  <test name="GUI1632" preserve-order="true">
+    <parameter name="Title" value="GUI1632 - Admin - Manage Templates - Create Template - Asset Class -  Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClassLeadingSpace" value="    GUI1632 Loan">
+    </parameter>
+    <parameter name="Geography" value="VietNam">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="ExpectedAssetClass" value="GUI1632 Loan">
+    </parameter>
+    <parameter name="AssetClassTrailingSpace" value="GUI1632 Loan  ">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1632" />
+    </classes>
+  </test>
+  <test name="GUI1633" preserve-order="true">
+    <parameter name="Title" value="GUI1633 - Admin - Manage Templates - Create Template - Asset Class - Invalid  and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClassEmpty" value="">
+    </parameter>
+    <parameter name="Geography" value="VietNam">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_ErrorMessage" value="$ManageTemp_ErrorModal_ErrorMessage">
+    </parameter>
+    <parameter name="ErrorMessage" value="Error updating template.">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_Okbutton_Btn" value="$ManageTemp_ErrorModal_Okbutton_Btn">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_Cancel_Btn" value="$ManageTemp_SelectACompany_UploadNewTemplate_Cancel_Btn">
+    </parameter>
+    <parameter name="AssetClassMaxAddOne" value="101characters 101characters 101characters101characters101 characters101 characters101 characters101 c">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1633" />
+    </classes>
+  </test>
+  <test name="GUI1640" preserve-order="true">
+    <parameter name="Title" value="">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClass" value="GUI1640 Loan">
+    </parameter>
+    <parameter name="GeographyMix" value="Geography059">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="GeographyUpper" value="GEOGRAPHY">
+    </parameter>
+    <parameter name="GeographyLower" value="geography">
+    </parameter>
+    <parameter name="GeographyNumber" value="123456789">
+    </parameter>
+    <parameter name="GeographyMin" value="A">
+    </parameter>
+    <parameter name="GeographyWhitespace" value="    ">
+    </parameter>
+    <parameter name="GeographyMax" value="100characters 100characters 100characters 100characters 100characters 100characters 100characters 10">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1640" />
+    </classes>
+  </test>
+  <test name="GUI1641" preserve-order="true">
+    <parameter name="Title" value="GUI1641 - Admin - Manage Templates - Create Template - Geography -  Leading and Trailing spaces">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClass" value="GUI1641 Loan">
+    </parameter>
+    <parameter name="GeographyLeadingSpace" value="   Geography">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="ExpectedGeography" value="Geography">
+    </parameter>
+    <parameter name="GeographyTrailingSpace" value="Geography  ">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1641" />
+    </classes>
+  </test>
+  <test name="GUI1642" preserve-order="true">
+    <parameter name="Title" value="GUI1642 - Admin - Manage Templates - Create Template - Geography - Invalid  and Error message">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClass" value="GUI1642 Loan">
+    </parameter>
+    <parameter name="GeographyEmpty" value="">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal" value="$ManageTemp_ErrorModal">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_ErrorMessage" value="$ManageTemp_ErrorModal_ErrorMessage">
+    </parameter>
+    <parameter name="ErrorMessage" value="Error updating template.">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_Okbutton_Btn" value="$ManageTemp_ErrorModal_Okbutton_Btn">
+    </parameter>
+    <parameter name="sManageTemp_URL" value="$ManageTemp_URL">
+    </parameter>
+    <parameter name="GeographyMaxAddOne" value="101characters 101characters 101characters101 characters101 characters101 characters101 characters1011">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1642" />
+    </classes>
+  </test>
+  <test name="GUI1656" preserve-order="true">
+    <parameter name="Title" value="GUI1656 - Admin - Manage Templates - Create Template - Create a duplicated template">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClass" value="GUI1656 Loan">
+    </parameter>
+    <parameter name="Geography" value="Geography">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal" value="$ManageTemp_ErrorModal">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_ErrorMessage" value="$ManageTemp_ErrorModal_ErrorMessage">
+    </parameter>
+    <parameter name="sErrorMessage" value="Error updating template.">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_Okbutton_Btn" value="$ManageTemp_ErrorModal_Okbutton_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1656" />
+    </classes>
+  </test>
+  <test name="GUI1658" preserve-order="true">
+    <parameter name="Title" value="GUI1658 - Admin - Manage Templates - Create Template - Upload a Template - Valid">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClass" value="GUI1658 Loan">
+    </parameter>
+    <parameter name="Geography" value="Vietnam">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1658" />
+    </classes>
+  </test>
+  <test name="GUI1659" preserve-order="true">
+    <parameter name="Title" value="GUI1659 - Admin - Manage Templates - Create Template - Upload a Template - Invalid - Extension">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="CompName" value="Prytania Auto">
+    </parameter>
+    <parameter name="AssetClass" value="GUI1659 Loan">
+    </parameter>
+    <parameter name="Geography" value="Vietnam">
+    </parameter>
+    <parameter name="TemplateNameTxt" value="ReferenceDataTemplate_Invalid_Extension.txt">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal" value="$ManageTemp_ErrorModal">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_ErrorMessage" value="$ManageTemp_ErrorModal_ErrorMessage">
+    </parameter>
+    <parameter name="ErrorMessage" value="Error updating template.">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_Okbutton_Btn" value="$ManageTemp_ErrorModal_Okbutton_Btn">
+    </parameter>
+    <parameter name="TemplateNameXls" value="ReferenceDataTemplate_Invalid_Extension.xls">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1659" />
+    </classes>
+  </test>
+  <test name="GUI1660" preserve-order="true">
+    <parameter name="Title" value="">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1660">
+    </parameter>
+    <parameter name="sCompanyType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCompanyCode" value="">
+    </parameter>
+    <parameter name="sCompanyMail" value="omv.notifications@gui1660.com">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="RefData_Invalid_Syntax_MissingOpeningTag" value="ReferenceDataTemplate_Invalid_Syntax_MissingOpeningTag.xml">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal" value="$ManageTemp_ErrorModal">
+    </parameter>
+    <parameter name="RefDataTemplate_Invalid_Syntax_MissingClosingTag" value="ReferenceDataTemplate_Invalid_Syntax_MissingClosingTag.xml">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1660" />
+    </classes>
+  </test>
+  <test name="GUI1662" preserve-order="true">
+    <parameter name="Title" value="GUI1662 - Admin - Manage Templates - Create Template - Create 20 templates">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1662">
+    </parameter>
+    <parameter name="sCompanyType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCompanyCode" value="">
+    </parameter>
+    <parameter name="sCompanyMail" value="omv.notifications@gui1662.com">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="BaseAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="Geography" value="VN">
+    </parameter>
+    <parameter name="TemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="NumberTemplates" value="20">
+    </parameter>
+    <parameter name="sAssetClassTemplateNo1" value="Student Loan1">
+    </parameter>
+    <parameter name="sAssetClassTemplateNo10" value="Student Loan10">
+    </parameter>
+    <parameter name="sAssetClassTemplateNo20" value="Student Loan20">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1662" />
+    </classes>
+  </test>
+  <test name="GUI1663" preserve-order="true">
+    <parameter name="Title" value="GUI1663 - Admin - Manage Templates - Create Template - Upload valid templates for CloudRisk">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sFirstAssetClass" value="Commercial">
+    </parameter>
+    <parameter name="sFirstGeography" value="US">
+    </parameter>
+    <parameter name="sFirstTemplateName" value="CloudRisk_Commercial_US_RefDataTemp.xml">
+    </parameter>
+    <parameter name="sSecondAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sSecondGeography" value="US">
+    </parameter>
+    <parameter name="sSecondTemplateName" value="CloudRisk_StudentLoan_US_RefDataTemp.xml">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1663" />
+    </classes>
+  </test>
+  <test name="GUI1664" preserve-order="true">
+    <parameter name="Title" value="GUI1664 - Admin - Manage Templates - Create Template - Upload valid templates for JCRA">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="JCRA Auto">
+    </parameter>
+    <parameter name="sFirstAssetClass" value="Commercial">
+    </parameter>
+    <parameter name="sFirstGeography" value="UK">
+    </parameter>
+    <parameter name="sFirstTemplateName" value="JCRA_Commercial_UK_RefDataTemp.xml">
+    </parameter>
+    <parameter name="sSecondAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sSecondGeography" value="UK">
+    </parameter>
+    <parameter name="sSecondTemplateName" value="JCRA_AutoLoan_UK_RefDataTemp.xml">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1664" />
+    </classes>
+  </test>
+  <test name="GUI1675" preserve-order="true">
+    <parameter name="Title" value="GUI1675 - Admin - Manage Templates - Template Table - Table Details">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="ModelingFirm" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="oManageComp_CompList_TableHeader" value="$ManageComp_CompList_TableHeader">
+    </parameter>
+    <parameter name="sAssetClassField" value="Asset Class">
+    </parameter>
+    <parameter name="sGeographyField" value="Geography">
+    </parameter>
+    <parameter name="sCreatedField" value="Created">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1675" />
+    </classes>
+  </test>
+  <test name="GUI1681" preserve-order="true">
+    <parameter name="Title" value="GUI1681 - Admin - Manage Templates - Template Table - Template table should be updated based on selected company's list of templates">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="sCompanyName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClassOne" value="Commercial">
+    </parameter>
+    <parameter name="sGeography" value="US">
+    </parameter>
+    <parameter name="sAssetClassTwo" value="Student Loan">
+    </parameter>
+    <parameter name="sAssetClassJCRA" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeographyJCRA" value="UK">
+    </parameter>
+    <parameter name="sCompanyNameJCRA" value="JCRA Auto">
+    </parameter>
+    <parameter name="sGeographyUK" value="UK">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1681" />
+    </classes>
+  </test>
+  <test name="GUI1682" preserve-order="true">
+    <parameter name="Title" value="GUI1682 - Admin - Manage Templates - Template Table - Company without any template created">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="Url" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oLoginInBtn" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmin_MainPage_Link" value="$Admin_MainPage_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1682">
+    </parameter>
+    <parameter name="sCompanyType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCompanyCode" value="">
+    </parameter>
+    <parameter name="sCompanyMail" value="omv.notifications@gui1682.com">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_Tb" value="$ManageTemp_SelectACompany_TemplateList_Tb">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1682" />
+    </classes>
+  </test>
+  <test name="GUI1700" preserve-order="true">
+    <parameter name="Title" value="GUI1700 - Admin - Manage Templates - Edit Template - Edit Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_Dd" value="$ManageTemp_SelectACompany_Dd">
+    </parameter>
+    <parameter name="ModelingFirm" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sGeography" value="US">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_EditTemplate_Modal" value="$ManageTemp_SelectACompany_TemplateList_EditTemplate_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1700" />
+    </classes>
+  </test>
+  <test name="GUI1701" preserve-order="true">
+    <parameter name="Title" value="GUI1701 - Admin - Manage Templates - Edit Template - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClass" value="Commercial">
+    </parameter>
+    <parameter name="sGeography" value="US">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_UploadNewTemplate_UploadTemplate_Btn" value="$ManageTemp_SelectACompany_UploadNewTemplate_UploadTemplate_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1701" />
+    </classes>
+  </test>
+  <test name="GUI1703" preserve-order="true">
+    <parameter name="Title" value="GUI1703 - Admin - Manage Templates - Edit Template - Unable to access background windows until template edit completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sModelingFirm" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClass" value="Commercial">
+    </parameter>
+    <parameter name="sGeography" value="US">
+    </parameter>
+    <parameter name="sImageName" value="OMV_Logo.PNG">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_EditTemplate_Modal" value="$ManageTemp_SelectACompany_TemplateList_EditTemplate_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1703" />
+    </classes>
+  </test>
+  <test name="GUI1704" preserve-order="true">
+    <parameter name="Title" value="GUI1704 - Admin - Manage Templates - Edit Template - Edit page should contain valid data of selected template">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="CloudRisk Auto">
+    </parameter>
+    <parameter name="sAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sGeography" value="US">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_EditTemplate_AssetClass_Span" value="$ManageTemp_SelectACompany_TemplateList_EditTemplate_AssetClass_Span">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_EditTemplate_Geography_Span" value="$ManageTemp_SelectACompany_TemplateList_EditTemplate_Geography_Span">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1704" />
+    </classes>
+  </test>
+  <test name="GUI1721" preserve-order="true">
+    <parameter name="Title" value="GUI1721 - Admin - Manage Templates - Edit Template - Upload a wrong template - Extension">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1721">
+    </parameter>
+    <parameter name="sCompanyType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCompanyCode" value="">
+    </parameter>
+    <parameter name="sCompanyMail" value="omv.notifications@gui1721.com">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="sTemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="sTemplateNameInvalid" value="ReferenceDataTemplate_Invalid_Extension.txt">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal" value="$ManageTemp_ErrorModal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1721" />
+    </classes>
+  </test>
+  <test name="GUI1722" preserve-order="true">
+    <parameter name="Title" value="GUI1722 - Admin - Manage Templates - Edit Template - Upload a wrong template - XML syntax">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1721">
+    </parameter>
+    <parameter name="sAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="sTemplateName_Miss_Opening_Tag" value="ReferenceDataTemplate_Invalid_Syntax_MissingOpeningTag.xml">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal" value="$ManageTemp_ErrorModal">
+    </parameter>
+    <parameter name="oManageTemp_ErrorModal_Okbutton_Btn" value="$ManageTemp_ErrorModal_Okbutton_Btn">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1722" />
+    </classes>
+  </test>
+  <test name="GUI1735" preserve-order="true">
+    <parameter name="Title" value="GUI1735 - Admin - Manage Templates - Delete Template - Delete button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sCompanyType" value="Modeling Firm">
+    </parameter>
+    <parameter name="sCompanyCode" value="">
+    </parameter>
+    <parameter name="sCompanyMail" value="omv.notifications@gui1735.com">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="sTemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal" value="$ManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1735" />
+    </classes>
+  </test>
+  <test name="GUI1736" preserve-order="true">
+    <parameter name="Title" value="GUI1736 - Admin - Manage Templates - Delete Template - Confirm Dialog - Default Focus">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Cancel_Btn" value="$ManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1736" />
+    </classes>
+  </test>
+  <test name="GUI1737" preserve-order="true">
+    <parameter name="Title" value="GUI1737 - Admin - Manage Templates - Delete Template - Unable to access background windows until user confirmation completes">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="sImageName" value="OMV_Logo.PNG">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_EditTemplate_Modal" value="$ManageTemp_SelectACompany_TemplateList_EditTemplate_Modal">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1737" />
+    </classes>
+  </test>
+  <test name="GUI1740" preserve-order="true">
+    <parameter name="Title" value="GUI1740 - Admin - Manage Templates - Delete Template - Confirm Dialog - Cancel Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Cancel_Btn" value="$ManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1740" />
+    </classes>
+  </test>
+  <test name="GUI1741" preserve-order="true">
+    <parameter name="Title" value="GUI1741 - Admin - Manage Templates - Delete Template - Cancel template delete">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Cancel_Btn" value="$ManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Cancel_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1741" />
+    </classes>
+  </test>
+  <test name="GUI1744" preserve-order="true">
+    <parameter name="Title" value="GUI1744 - Admin - Manage Templates - Delete Template - Confirm Dialog - Confirm Button - Mouse and Keyboard actions">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="oManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Confirm_Btn" value="$ManageTemp_SelectACompany_TemplateList_DeleteIcon_ConfirmModal_Confirm_Btn">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1744" />
+    </classes>
+  </test>
+  <test name="GUI1745" preserve-order="true">
+    <parameter name="Title" value="GUI1745 - Admin - Manage Templates - Delete Template - Re-create the deleted template with same info">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1735">
+    </parameter>
+    <parameter name="sAssetClass" value="Auto Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="sTemplateName" value="ReferenceDataTemplate_Valid.xml">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1745" />
+    </classes>
+  </test>
+  <test name="GUI1747" preserve-order="true">
+    <parameter name="Title" value="GUI1747 - Admin - Manage Templates - Delete Template - Delete 20 templates">
+    </parameter>
+    <parameter name="browser" value="ChromeDriver">
+    </parameter>
+    <parameter name="oUrl" value="$Url">
+    </parameter>
+    <parameter name="oLoginName" value="$LoginName">
+    </parameter>
+    <parameter name="oPassword" value="$Password">
+    </parameter>
+    <parameter name="sLoginName" value="admin01.auto@qa-omv.sixsolutions.us">
+    </parameter>
+    <parameter name="sPassword" value="R1;;winT">
+    </parameter>
+    <parameter name="oBtnLogin" value="$BtnLogin">
+    </parameter>
+    <parameter name="oAdmins_Link" value="$Admins_Link">
+    </parameter>
+    <parameter name="oManageTemp_Link" value="$ManageTemp_Link">
+    </parameter>
+    <parameter name="sCompanyName" value="GUI1662">
+    </parameter>
+    <parameter name="sBaseAssetClass" value="Student Loan">
+    </parameter>
+    <parameter name="sGeography" value="VN">
+    </parameter>
+    <parameter name="sNumberTemplate" value="20">
+    </parameter>
+    <parameter name="sAssetClassNo1" value="Student Loan1">
+    </parameter>
+    <parameter name="sAssetClassNo10" value="Student Loan10">
+    </parameter>
+    <parameter name="sAssetClassNo20" value="Student Loan20">
+    </parameter>
+    <parameter name="oAdmin_ManageCompanies_Link" value="$Admin_ManageCompanies_Link">
+    </parameter>
+    <classes>
+      <class name="autoset.testcases.GUI1747" />
+    </classes>
+  </test>
+</suite>
